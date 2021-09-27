@@ -1,24 +1,12 @@
-.header {
-  height: 90px;
-  display: flex;
-  background-color: red;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+  background-color: #1f1f1f;
 }
 
-.header-name {
-  width: 30%;
-  text-align: center;
-}
-
-.header-links {
-  width: 70%;
-  text-align: end;
-  display: table-cell;
-
-  background-color: yellow;
-}
-
-.header-links p {
-  display: inline-block;
-  font-size: 20px;
-  margin-inline: 10px;
+*::selection {
+  color: white;
+  background-color: #d14949;
 }

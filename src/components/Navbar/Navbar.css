@@ -1,0 +1,38 @@
+.Navbar {
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  background-color: #1f1f1f;
+  border-bottom: 1px solid white;
+}
+
+.Navbar-title {
+  justify-self: start;
+  margin-left: 20px;
+  color: #d14949;
+}
+
+.Navbar-menu {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-gap: 10px;
+  list-style: none;
+  text-align: center;
+  width: 70vw;
+  justify-content: end;
+  margin-right: 2rem;
+}
+
+.Navbar-links {
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  color: white;
+}
+
+.Navbar-links:hover {
+  background-color: #d14949;
+  border-radius: 4px;
+  transition: all 0.2s ease-out;
+}

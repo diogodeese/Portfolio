@@ -1,0 +1,25 @@
+.Presentation {
+  height: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Presentation-title {
+  justify-self: start;
+  font-size: 96px;
+  color: #d14949;
+}
+
+.Presentation-leftside {
+  width: 50%;
+  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Presentation-rightside {
+  width: 50%;
+  float: right;
+}
