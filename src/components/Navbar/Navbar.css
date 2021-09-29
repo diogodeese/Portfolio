@@ -7,7 +7,6 @@
   align-items: center;
   font-size: 1.2rem;
   background-color: #1f1f1f;
-  border-bottom: 1px solid white;
 }
 
 .Navbar-title {
@@ -15,6 +14,7 @@
   margin-left: 20px;
   color: #d14949;
   cursor: default;
+  letter-spacing: 2px;
 }
 
 .Navbar-menu {
@@ -30,11 +30,20 @@
 .Navbar-links {
   padding: 0.5rem 1rem;
   color: white;
+  font-weight: 500;
 }
 
 .Navbar-links:hover {
-  background-color: #d14949;
+  background-color: #ffd6d6;
+  color: #d14949;
   border-radius: 4px;
   transition: all 0.4s ease-out;
   cursor: pointer;
+}
+
+.Navbar .active {
+  background-color: #d14949;
+  color: #ffffff;
+  border-radius: 4px;
+  transition: all 0.4s ease-out;
 }
