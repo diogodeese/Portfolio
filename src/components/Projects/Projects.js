@@ -6,9 +6,9 @@ export default function Projects() {
   const { height } = useWindowDimensions();
 
   return (
-    <div
-      id="projects"
-      style={{ height: height, backgroundColor: "white" }}
-    ></div>
+    <div id="projects" style={{ height: height }}>
+      <div></div>
+      <h4 style={{ color: "white" }}>projects</h4>
+    </div>
   );
 }
