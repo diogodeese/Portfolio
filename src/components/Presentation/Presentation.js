@@ -9,7 +9,12 @@ export default function Presentation() {
   return (
     <div id="home" className="Presentation" style={{ height: height }}>
       <div className="Presentation-leftside">
-        <h1 className="Presentation-title">I like {"\n"} to Code</h1>
+        <h3 className="Presentation-before-title">Hi, my name is</h3>
+        <h1 className="Presentation-title">
+          Diogo Santos
+          <br />
+          and I like to Code.
+        </h1>
       </div>
       <div className="Presentation-rightside">
         <img

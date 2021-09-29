@@ -4,22 +4,32 @@
   justify-content: center;
 }
 
-.Presentation-title {
-  justify-self: start;
-  font-size: 76px;
-  color: #d14949;
-  cursor: default;
-}
-
 .Presentation-leftside {
   width: 50%;
   float: left;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  display: block;
+  padding-left: 15%;
+  padding-bottom: 10%;
+}
+
+.Presentation-before-title {
+  margin-bottom: 20px;
+  letter-spacing: 3px;
+  color: #d14949;
+}
+
+.Presentation-title {
+  justify-self: start;
+  font-size: 56px;
+  color: #ffacac;
+  cursor: default;
+  font-family: "Courier New", Courier;
+  font-weight: 100;
 }
 
 .Presentation-rightside {
   width: 50%;
   float: right;
+  padding-right: 15%;
+  padding-bottom: 5%;
 }
