@@ -1,5 +1,4 @@
 .Presentation {
-  height: 700px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -7,8 +6,9 @@
 
 .Presentation-title {
   justify-self: start;
-  font-size: 96px;
+  font-size: 76px;
   color: #d14949;
+  cursor: default;
 }
 
 .Presentation-leftside {
