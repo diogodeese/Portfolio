@@ -20,7 +20,7 @@ export default function Presentation() {
         <img
           src={img}
           alt="My Beautiful Face"
-          style={{ width: 640, height: 360, margin: 100, borderRadius: 10 }}
+          style={{ width: 640, height: 360, margin: 100, borderRadius: 5 }}
         />
       </div>
     </div>
