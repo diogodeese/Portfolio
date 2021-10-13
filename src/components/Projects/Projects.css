@@ -1,0 +1,17 @@
+.Projects {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Project {
+  width: 100%;
+}
+
+.Project-title {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.Project-image {
+}
