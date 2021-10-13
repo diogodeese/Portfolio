@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-scroll";
+import { FaBars, FaChevronUp } from "react-icons/fa";
 import "./Navbar.css";
 
 class Navbar extends Component {
@@ -41,9 +42,18 @@ class Navbar extends Component {
         }}
       >
         <h1 className="Navbar-title">Diogo Santos</h1>
+
         <div className="Navbar-menu">
+          <div className="Mobile-menu-icon">
+            <FaBars style={{ color: "white" }} />
+          </div>
+
+          <div className="Close-nav-menu">
+            <FaChevronUp style={{ color: "white" }} />
+          </div>
+
           <Link
-            activeClass="active"
+            activeClass="Active"
             to="home"
             spy={true}
             smooth={true}
@@ -65,7 +75,7 @@ class Navbar extends Component {
             Projects
           </Link>
           <Link
-            activeClass="active"
+            activeClass="Active"
             to="skillset"
             spy={true}
             smooth={true}
@@ -76,7 +86,7 @@ class Navbar extends Component {
             Skillset
           </Link>
           <Link
-            activeClass="active"
+            activeClass="Active"
             to="contact"
             spy={true}
             smooth={true}
