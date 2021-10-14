@@ -43,13 +43,9 @@ class Navbar extends Component {
       >
         <h1 className="Navbar-title">Diogo Santos</h1>
         <div className="Navbar-menu">
-          <div className="Mobile-menu-icon">
-            <FaBars className="Navbar-icons" />
-          </div>
+          <FaBars className="Navbar-icons Open" />
 
-          <div className="Close-nav-menu">
-            <FaChevronUp className="Navbar-icons" />
-          </div>
+          <FaChevronUp className="Navbar-icons Close" />
 
           <Link
             activeClass="Active"

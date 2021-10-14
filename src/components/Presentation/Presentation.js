@@ -14,8 +14,8 @@ export default function Presentation() {
           <br />I solve problems by coding.
         </h1>
         <h3 className="Presentation-under-title">
-          I'm software engineer that likes to learn new technologies
-          <br /> and work with enthusiastic teams.
+          I'm software engineer that likes to learn new technologies and work
+          with enthusiastic teams.
         </h3>
         <a
           className="Presentation-download-button"

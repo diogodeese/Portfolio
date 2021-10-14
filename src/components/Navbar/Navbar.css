@@ -46,32 +46,28 @@
   transition: all 0.4s ease-out;
 }
 
-.Mobile-menu-icon {
-  position: absolute;
-  right: 2rem;
-  top: 1rem;
-  width: 4rem;
-  font-size: 2rem;
-  cursor: pointer;
-  display: none;
-  outline: none;
-}
-
 .Navbar-icons {
   color: #ffd6d6;
+  position: relative;
+  right: 15px;
+  font-size: 3vw;
+  cursor: pointer;
+  display: none;
 }
 
 .Navbar-icons:hover {
   color: #ffacac;
 }
 
-.Close-nav-menu {
-  display: none;
-}
+@media only screen and (max-width: 800px) {
+  .Navbar-title {
+    font-size: 5vw;
+    left: 25px;
+  }
 
-@media only screen and (max-width: 1280px) {
-  .Mobile-menu-icon {
+  .Open {
     display: flex;
+    font-size: 5vw;
   }
 
   .Navbar-links {

@@ -2,6 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-inline: 100px;
 }
 
 .Presentation-container {
@@ -9,7 +10,10 @@
   margin-right: 15%;
   margin-bottom: 10%;
   overflow: hidden;
-  min-height: 350px;
+  min-height: 400px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .Presentation-before-title {
@@ -22,7 +26,7 @@
   justify-self: start;
   font-family: "Calibre", "Inter", "San Francisco", "SF Pro Text", -apple-system,
     system-ui, sans-serif;
-  font-size: 56px;
+  font-size: 46px;
   font-weight: 500;
   color: #ffacac;
   cursor: default;
@@ -32,6 +36,7 @@
   margin-top: 10px;
   margin-bottom: 40px;
   letter-spacing: 2px;
+  max-width: 600px;
   color: #d9c5c5;
 }
 
@@ -52,4 +57,32 @@
 }
 
 @media only screen and (max-width: 1720px) {
+}
+
+@media only screen and (max-width: 800px) {
+  .Presentation {
+    margin-inline: 0;
+  }
+
+  .Presentation-container {
+    margin: 25px;
+  }
+
+  .Presentation-before-title {
+    font-size: 3vw;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+  }
+
+  .Presentation-title {
+    font-size: 6vw;
+  }
+
+  .Presentation-under-title {
+    font-size: 3.5vw;
+  }
+
+  .Presentation-download-button {
+    font-size: 3.5vw;
+  }
 }

@@ -68,3 +68,13 @@
   margin: 0px auto;
   background-color: #d9c5c5;
 }
+
+@media only screen and (max-width: 800px) {
+  .RightSidebar {
+    display: none;
+  }
+
+  .LeftSidebar {
+    display: none;
+  }
+}
