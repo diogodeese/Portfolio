@@ -1,27 +1,29 @@
 import React from "react";
 import useWindowDimensions from "../WindowDimensions";
 import "./Presentation.css";
-import img from "../../assets/image.jpg";
 
 export default function Presentation() {
   const { height } = useWindowDimensions();
 
   return (
     <div id="home" className="Presentation" style={{ height: height }}>
-      <div className="Presentation-leftside">
+      <div className="Presentation-container">
         <h3 className="Presentation-before-title">Hi, my name is</h3>
         <h1 className="Presentation-title">
-          Diogo Santos
-          <br />
-          and I like to Code.
+          Diogo Santos.
+          <br />I solve problems by coding.
         </h1>
-      </div>
-      <div className="Presentation-rightside">
-        <img
-          src={img}
-          alt="My Beautiful Face"
-          style={{ width: 640, height: 360, margin: 100, borderRadius: 5 }}
-        />
+        <h3 className="Presentation-under-title">
+          I'm software engineer that likes to learn new technologies
+          <br /> and work with enthusiastic teams.
+        </h3>
+        <a
+          className="Presentation-download-button"
+          href="/images/myw3schoolsimage.jpg"
+          download
+        >
+          Check my Resume
+        </a>
       </div>
     </div>
   );
