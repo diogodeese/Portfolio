@@ -4,12 +4,12 @@
   justify-content: center;
 }
 
-.Presentation-leftside {
-  width: 50%;
-  float: left;
+.Presentation-container {
   display: block;
-  padding-left: 15%;
-  padding-bottom: 10%;
+  margin-right: 15%;
+  margin-bottom: 10%;
+  overflow: hidden;
+  min-height: 350px;
 }
 
 .Presentation-before-title {
@@ -20,16 +20,36 @@
 
 .Presentation-title {
   justify-self: start;
+  font-family: "Calibre", "Inter", "San Francisco", "SF Pro Text", -apple-system,
+    system-ui, sans-serif;
   font-size: 56px;
+  font-weight: 500;
   color: #ffacac;
   cursor: default;
-  font-family: "Courier New", Courier;
-  font-weight: 100;
 }
 
-.Presentation-rightside {
-  width: 50%;
-  float: right;
-  padding-right: 15%;
-  padding-bottom: 5%;
+.Presentation-under-title {
+  margin-top: 10px;
+  margin-bottom: 40px;
+  letter-spacing: 2px;
+  color: #d9c5c5;
+}
+
+.Presentation-download-button {
+  padding: 0.5rem 1rem;
+  color: #d9c5c5;
+  font-size: 20px;
+  text-decoration: none;
+  border: 1px solid #d14949;
+  border-radius: 4px;
+}
+
+.Presentation-download-button:hover {
+  background-color: #d14949;
+  border-radius: 4px;
+  transition: all 0.4s ease-out;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 1720px) {
 }

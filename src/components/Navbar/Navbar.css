@@ -3,15 +3,14 @@
   width: 100%;
   display: flex;
   position: fixed;
-  justify-content: center;
   align-items: center;
   font-size: 1.2rem;
   background-color: #1f1f1f;
 }
 
 .Navbar-title {
-  justify-self: start;
-  margin-left: 20px;
+  position: absolute;
+  left: 50px;
   color: #d14949;
   cursor: default;
   letter-spacing: 2px;
@@ -22,9 +21,8 @@
   grid-template-columns: repeat(4, auto);
   grid-gap: 10px;
   text-align: center;
-  width: 70vw;
+  width: 97%;
   justify-content: end;
-  margin-right: 2rem;
 }
 
 .Navbar-links {
@@ -50,9 +48,10 @@
 
 .Mobile-menu-icon {
   position: absolute;
-  right: 1rem;
+  right: 2rem;
   top: 1rem;
   width: 4rem;
+  font-size: 2rem;
   cursor: pointer;
   display: none;
   outline: none;
@@ -64,7 +63,7 @@
 
 @media only screen and (max-width: 1280px) {
   .Mobile-menu-icon {
-    display: block;
+    display: flex;
   }
 
   .Navbar-links {

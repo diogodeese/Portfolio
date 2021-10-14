@@ -1,0 +1,69 @@
+.LeftSidebar {
+  display: table-row;
+  position: fixed;
+  color: #d9c5c5;
+  bottom: 0;
+  left: 50px;
+  padding-top: 5px;
+}
+
+.LeftSidebar li {
+  padding-bottom: 20px;
+  cursor: pointer;
+  transition: transform ease 400ms;
+}
+
+.LeftSidebar li:hover {
+  position: relative;
+  color: #ffacac;
+  transform: translate(0, -5px);
+}
+
+.LeftSidebar-icons {
+  font-size: 24px;
+}
+
+.LeftSidebar::after {
+  content: "";
+  display: block;
+  width: 1px;
+  height: 90px;
+  margin: 0px auto;
+  background-color: #d9c5c5;
+}
+
+.RightSidebar {
+  display: table-row;
+  position: fixed;
+  bottom: 0;
+  right: 50px;
+}
+
+.RightSidebar li a {
+  padding-bottom: 20px;
+  color: #d9c5c5;
+  writing-mode: vertical-rl;
+  letter-spacing: 3px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform ease 400ms;
+}
+
+.RightSidebar li a {
+  text-decoration: none;
+}
+
+.RightSidebar li a:hover {
+  position: relative;
+  color: #ffacac;
+  transform: translate(0, -5px);
+}
+
+.RightSidebar::after {
+  content: "";
+  display: block;
+  width: 1px;
+  height: 90px;
+  margin: 0px auto;
+  background-color: #d9c5c5;
+}
