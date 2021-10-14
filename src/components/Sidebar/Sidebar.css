@@ -41,6 +41,7 @@
 
 .RightSidebar li a {
   padding-bottom: 20px;
+  padding-top: 5px;
   color: #d9c5c5;
   writing-mode: vertical-rl;
   letter-spacing: 3px;

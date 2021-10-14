@@ -57,6 +57,14 @@
   outline: none;
 }
 
+.Navbar-icons {
+  color: #ffd6d6;
+}
+
+.Navbar-icons:hover {
+  color: #ffacac;
+}
+
 .Close-nav-menu {
   display: none;
 }

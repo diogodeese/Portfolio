@@ -44,11 +44,11 @@ class Navbar extends Component {
         <h1 className="Navbar-title">Diogo Santos</h1>
         <div className="Navbar-menu">
           <div className="Mobile-menu-icon">
-            <FaBars style={{ color: "white" }} />
+            <FaBars className="Navbar-icons" />
           </div>
 
           <div className="Close-nav-menu">
-            <FaChevronUp style={{ color: "white" }} />
+            <FaChevronUp className="Navbar-icons" />
           </div>
 
           <Link
