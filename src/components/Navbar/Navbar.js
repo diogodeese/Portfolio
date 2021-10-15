@@ -59,7 +59,7 @@ class Navbar extends Component {
             Home
           </Link>
           <Link
-            activeClass="active"
+            activeClass="Active"
             to="projects"
             spy={true}
             smooth={true}
