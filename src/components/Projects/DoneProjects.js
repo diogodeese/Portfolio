@@ -1,0 +1,74 @@
+export const projects = [
+  {
+    title: "Mobile Zoo App",
+    description:
+      "I build this mobile application because when I visited a zoo I couldn't remember wich animals i did see.",
+    languages: ["React Native", "JS"],
+    links: [
+      {
+        name: "GitHub",
+        link: "https://github.com/diogodeese",
+        icon: "FiGithub",
+      },
+      {
+        name: "External Link",
+        link: "https://www.linkedin.com/feed/",
+        icon: "FiGithub",
+      },
+    ],
+  },
+  {
+    title: "Cloud Website",
+    description:
+      "I build this website with the idea of tranfering images trough qr codes and download them on your mobile device",
+    languages: ["HTML", "JS", "PHP", "MySQL"],
+    links: [
+      {
+        name: "GitHub",
+        link: "https://github.com/diogodeese",
+      },
+      {
+        name: "External Link",
+        link: "https://www.linkedin.com/feed/",
+      },
+    ],
+  },
+  {
+    title: "Evee Discord Bot",
+    description:
+      "Discord bot made by me and my friend to automate things on our comunication platform",
+    languages: ["JS", "Discord.js"],
+    links: [
+      {
+        name: "GitHub",
+        link: "https://github.com/diogodeese",
+      },
+      {
+        name: "External Link",
+        link: "https://www.linkedin.com/feed/",
+      },
+    ],
+  },
+  {
+    title: "Test Project",
+    description: "Test Description",
+    languages: ["JS", "Discord.js"],
+    links: [
+      {
+        name: "GitHub",
+        link: "https://github.com/diogodeese",
+      },
+    ],
+  },
+  {
+    title: "Test Project",
+    description: "Test Description",
+    languages: ["JS", "Discord.js"],
+    links: [
+      {
+        name: "GitHub",
+        link: "https://github.com/diogodeese",
+      },
+    ],
+  },
+];
