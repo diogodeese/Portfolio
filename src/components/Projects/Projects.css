@@ -44,7 +44,7 @@
 
 .Project:hover {
   cursor: default;
-  transform: translate(0, -5px);
+  transform: translate(0, -10px);
 }
 
 .Project-main-icon {

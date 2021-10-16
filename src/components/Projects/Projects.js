@@ -16,7 +16,7 @@ export default function Projects() {
         <table>
           <tr>
             {projects.map((project) => (
-              <td>
+              <td style={{ paddingTop: 10 }}>
                 <div className="Project">
                   <FiFolder className="Project-main-icon" />
                   <ul className="Project-links">
