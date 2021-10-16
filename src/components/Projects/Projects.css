@@ -34,22 +34,58 @@
   height: 350px;
   width: 300px;
   margin: 5px;
-  padding: 20px;
+  padding: 25px;
   position: relative;
   background-color: #262626;
   border-radius: 5px;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 4px 8px;
+  box-shadow: rgba(0, 0, 0, 0.26) 0px 22px 36px;
+  transition: transform ease 400ms;
+}
+
+.Project:hover {
+  cursor: default;
+  transform: translate(0, -5px);
+}
+
+.Project-main-icon {
+  float: left;
+  text-align: left;
+  font-size: 36px;
+  color: #d14949;
+  background-color: transparent;
+}
+
+.Project-links {
+  align-items: center;
+  justify-content: flex-end;
+  display: flex;
+  width: 85%;
+  height: 40px;
+  margin-bottom: 25px;
+  background-color: transparent;
+}
+
+.Project-links li {
+  margin-inline: 5px;
+  background-color: transparent;
+}
+
+.Project-icons {
+  font-size: 22px;
+  color: #facaca;
+  cursor: pointer;
+  background-color: transparent;
 }
 
 .Project h2 {
-  text-align: center;
+  text-align: left;
   font-size: 22px;
   font-family: "Calibre", "Inter", "San Francisco", "SF Pro Text", -apple-system,
     system-ui, sans-serif;
-  font-weight: 400;
+  font-weight: 600;
   letter-spacing: 1px;
   background-color: transparent;
-  color: #ffacac;
+  color: #facaca;
 }
 
 .Project h4 {
@@ -57,14 +93,17 @@
   margin-bottom: 20px;
   font-size: 14px;
   letter-spacing: 2px;
-  color: #d9c5c5;
+  color: #d1cdcd;
   background-color: transparent;
 }
 
 .Project-footer {
   width: 100%;
   position: absolute;
-  bottom: 0;
+  display: flex;
+  bottom: 25px;
+  left: 0;
+  padding-inline: 20px;
   background-color: transparent;
 }
 
@@ -77,13 +116,5 @@
 .Project-footer li {
   padding: 5px;
   font-size: 15px;
-  color: #d9c5c5;
-}
-
-.Project-footer-github {
-  font-size: 20px;
-  color: #d9c5c5;
-  margin-bottom: 8px;
-  cursor: pointer;
-  background-color: transparent;
+  color: #d1cdcd;
 }

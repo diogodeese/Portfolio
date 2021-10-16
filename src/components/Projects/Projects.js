@@ -1,6 +1,7 @@
 import React from "react";
 import useWindowDimensions from "../WindowDimensions";
-import { FiGithub } from "react-icons/fi";
+import { FiFolder, FiGithub, FiExternalLink } from "react-icons/fi";
+import { projects } from "./DoneProjects";
 import "./Projects.css";
 
 export default function Projects() {
@@ -14,37 +15,45 @@ export default function Projects() {
       <div className="Projects-container">
         <table>
           <tr>
-            <td>
-              <div className="Project">
-                <h2>Mobile Zoo App</h2>
-                <h4>
-                  I build this mobile application because when I visited a zoo I
-                  couldn't remember wich animals i did see.
-                </h4>
-                <div className="Project-footer">
-                  <ul>
-                    <li>React Native</li>
-                    <li>JS</li>
-                    <li>{width}</li>
+            {projects.map((project) => (
+              <td>
+                <div className="Project">
+                  <FiFolder className="Project-main-icon" />
+                  <ul className="Project-links">
+                    {project.links
+                      .filter((link) => link.name === "GitHub")
+                      .map((link) => (
+                        <li>
+                          <FiGithub
+                            className="Project-icons"
+                            onClick={() => window.open(link.link)}
+                          />
+                        </li>
+                      ))}
+                    {project.links
+                      .filter((link) => link.name === "External Link")
+                      .map((link) => (
+                        <li>
+                          <FiExternalLink
+                            className="Project-icons"
+                            onClick={() => window.open(link.link)}
+                          />
+                        </li>
+                      ))}
                   </ul>
-                  <FiGithub className="Project-footer-github" />
+                  <h2>{project.title}</h2>
+                  <h4>{project.description}</h4>
+                  <div className="Project-footer">
+                    <ul className="Project-footer-languages">
+                      {project.languages.map((language) => (
+                        <li>{language}</li>
+                      ))}
+                      <li>{width}</li>
+                    </ul>
+                  </div>
                 </div>
-              </div>
-            </td>
-            <td>
-              <div className="Project"></div>
-            </td>
-            <td>
-              <div className="Project"></div>
-            </td>
-            <td>
-              <div className="Project"></div>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <div className="Project"></div>
-            </td>
+              </td>
+            ))}
           </tr>
         </table>
       </div>
