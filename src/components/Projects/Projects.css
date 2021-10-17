@@ -24,10 +24,17 @@
 
 .Projects-container {
   width: 100%;
-  height: 85%;
+  height: 70%;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.Project-wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-gap: 10px;
+  padding: 20px;
 }
 
 .Project {
@@ -38,7 +45,7 @@
   position: relative;
   background-color: #262626;
   border-radius: 5px;
-  box-shadow: rgba(0, 0, 0, 0.26) 0px 22px 36px;
+  box-shadow: rgba(0, 0, 0, 0.26) 0px 3px 6px;
   transition: transform ease 400ms;
 }
 
@@ -117,4 +124,24 @@
   padding: 5px;
   font-size: 15px;
   color: #d1cdcd;
+}
+
+.Project-button-div {
+  text-align: center;
+}
+
+.Projects-button {
+  padding: 0.5rem 1rem;
+  color: #d9c5c5;
+  font-size: 20px;
+  text-decoration: none;
+  border: 1px solid #d14949;
+  border-radius: 4px;
+}
+
+.Projects-button:hover {
+  background-color: #d14949;
+  border-radius: 4px;
+  transition: all 0.4s ease-out;
+  cursor: pointer;
 }
