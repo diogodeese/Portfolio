@@ -16,6 +16,7 @@ export const projects = [
         icon: "FiGithub",
       },
     ],
+    year: 2021,
   },
   {
     title: "Cloud Website",
@@ -32,6 +33,7 @@ export const projects = [
         link: "https://www.linkedin.com/feed/",
       },
     ],
+    year: 2021,
   },
   {
     title: "Evee Discord Bot",
@@ -48,27 +50,6 @@ export const projects = [
         link: "https://www.linkedin.com/feed/",
       },
     ],
-  },
-  {
-    title: "Test Project",
-    description: "Test Description",
-    languages: ["JS", "Discord.js"],
-    links: [
-      {
-        name: "GitHub",
-        link: "https://github.com/diogodeese",
-      },
-    ],
-  },
-  {
-    title: "Test Project",
-    description: "Test Description",
-    languages: ["JS", "Discord.js"],
-    links: [
-      {
-        name: "GitHub",
-        link: "https://github.com/diogodeese",
-      },
-    ],
+    year: 2021,
   },
 ];
