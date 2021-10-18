@@ -3,7 +3,7 @@ import { Link } from "react-scroll";
 import { FaBars, FaChevronUp } from "react-icons/fa";
 import "./Navbar.css";
 
-class Navbar extends Component {
+export default class Navbar extends Component {
   state = {
     auth: false,
     slide: 0, // How much should the Navbar slide up or down
@@ -96,5 +96,3 @@ class Navbar extends Component {
     );
   }
 }
-
-export default Navbar;
