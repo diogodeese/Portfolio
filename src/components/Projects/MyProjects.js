@@ -52,4 +52,53 @@ export const projects = [
     ],
     year: 2021,
   },
+  {
+    title: "Future Porofessor",
+    description: "Beautiful description that I didnt think about yet",
+    languages: ["JS"],
+    links: [
+      {
+        name: "GitHub",
+        link: "https://github.com/diogodeese",
+      },
+      {
+        name: "External Link",
+        link: "https://www.linkedin.com/feed/",
+      },
+    ],
+    year: 2021,
+  },
+  {
+    title: "Test Project",
+    description: "Beautiful description that I didnt think about yet",
+    languages: ["JS"],
+    links: [
+      {
+        name: "GitHub",
+        link: "https://github.com/diogodeese",
+      },
+      {
+        name: "External Link",
+        link: "https://www.linkedin.com/feed/",
+      },
+    ],
+    year: 2021,
+  },
+
+  {
+    title: "",
+    description: "",
+    languages: [],
+    links: [
+      {
+        name: "GitHub",
+        link: "https://github.com/diogodeese",
+      },
+      {
+        name: "External Link",
+        link: "https://www.linkedin.com/feed/",
+      },
+    ],
+    year: 2021,
+  },
 ];
