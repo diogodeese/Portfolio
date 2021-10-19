@@ -7,7 +7,7 @@ import "./Projects.css";
 export default function Projects() {
   const { height, width } = useWindowDimensions();
   const [projectsNumber, setProjectsNumber] = useState(8);
-  const [adicionalHeigh, setAdicionalHeigh] = useState(0);
+  const [adicionalHeigh, setAdicionalHeigh] = useState(200);
 
   useEffect(() => {
     if (width < 1600) {
@@ -20,7 +20,7 @@ export default function Projects() {
 
     if (width < 900) {
       setProjectsNumber(3);
-      setAdicionalHeigh(height * 2);
+      setAdicionalHeigh(height);
     }
   }, [width, height]);
 
