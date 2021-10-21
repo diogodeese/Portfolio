@@ -5,12 +5,14 @@ import "./index.css";
 
 import Home from "./pages/Home";
 import NotFoundPage from "./pages/404.js";
+import Archive from "./pages/Archive";
 
 function App() {
   return (
     <div>
       <Switch>
         <Route exact path="/" component={Home} />
+        <Route exact path="/archive" component={Archive} />
         <Route path="*" component={NotFoundPage} />
       </Switch>
     </div>
