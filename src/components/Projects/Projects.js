@@ -7,7 +7,7 @@ import "./Projects.css";
 export default function Projects() {
   const { height, width } = useWindowDimensions();
   const [projectsNumber, setProjectsNumber] = useState(8);
-  const [adicionalHeigh, setAdicionalHeigh] = useState(200);
+  const [adicionalHeigh, setAdicionalHeigh] = useState(100);
 
   useEffect(() => {
     if (width < 1600) {
@@ -28,10 +28,10 @@ export default function Projects() {
     <div
       id="projects"
       className="Projects"
-      style={{ height: height + adicionalHeigh }}
+      style={{ height: height + adicionalHeigh, minHeight: 1000 }}
     >
       <div className="Projects-introduction">
-        <h1 className="Projects-title">What have I built</h1>
+        <h1 className="Projects-title">My Projects</h1>
       </div>
       <div className="Projects-container">
         <div className="Project-wrapper">
@@ -76,7 +76,7 @@ export default function Projects() {
         </div>
       </div>
       <div className="Project-button-div">
-        <button className="Projects-button">Show All Projects</button>
+        <button className="Projects-button">Projects Archive</button>
       </div>
     </div>
   );
