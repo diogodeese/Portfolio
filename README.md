@@ -19,9 +19,4 @@
   ```
   npm install react-router-dom
   ```  
-  
-  - React Resize Detector
-    
-  ```
-  npm install react-resize-detector
-  ```
+
