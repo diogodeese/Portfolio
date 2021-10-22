@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { Link } from "react-scroll";
-import { FaBars, FaChevronUp } from "react-icons/fa";
 import "./Navbar.css";
 
 export default class Navbar extends Component {
@@ -43,10 +42,6 @@ export default class Navbar extends Component {
       >
         <h1 className="Navbar-title">Diogo Santos</h1>
         <div className="Navbar-menu">
-          <FaBars className="Navbar-icons Open" />
-
-          <FaChevronUp className="Navbar-icons Close" />
-
           <Link
             activeClass="Active"
             to="home"

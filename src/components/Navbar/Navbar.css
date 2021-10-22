@@ -63,14 +63,10 @@
 @media only screen and (max-width: 800px) {
   .Navbar-title {
     font-size: 5vw;
-    left: 25px;
+    left: 0;
+    width: 100%;
+    text-align: center;
   }
-
-  .Open {
-    display: flex;
-    font-size: 5vw;
-  }
-
   .Navbar-links {
     transition: 0.3s ease transform;
     display: none;
