@@ -1,0 +1,13 @@
+.Footer {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Footer-text-box {
+  text-align: center;
+  font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
+  font-size: 14px;
+  color: #787575;
+}
