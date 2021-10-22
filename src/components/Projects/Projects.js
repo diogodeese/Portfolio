@@ -10,6 +10,11 @@ export default function Projects() {
   const [adicionalHeigh, setAdicionalHeigh] = useState(100);
 
   useEffect(() => {
+    if (width > 1600) {
+      setProjectsNumber(8);
+      setAdicionalHeigh(100);
+    }
+
     if (width < 1600) {
       setProjectsNumber(6);
     }
