@@ -1,0 +1,53 @@
+.Contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Contact-container {
+  align-items: center;
+  justify-content: center;
+  max-width: 600px;
+}
+
+.Contact-title {
+  font-family: "Calibre", "Inter", "San Francisco", "SF Pro Text", -apple-system,
+    system-ui, sans-serif;
+  font-size: 42px;
+  font-weight: 600;
+  color: #ffacac;
+  text-align: center;
+}
+
+.Contact-description {
+  margin-top: 25px;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  font-size: 16px;
+  letter-spacing: 2px;
+  color: #d1cdcd;
+  text-align: center;
+}
+
+.Contact-button-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Contact-button {
+  margin-top: 25px;
+  padding: 0.5rem 1rem;
+  color: #d9c5c5;
+  font-size: 20px;
+  text-decoration: none;
+  border: 1px solid #d14949;
+  border-radius: 4px;
+}
+
+.Contact-button:hover {
+  background-color: #d14949;
+  border-radius: 4px;
+  transition: all 0.4s ease-out;
+  cursor: pointer;
+}
