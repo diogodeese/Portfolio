@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { FaGithub, FaLinkedinIn } from "react-icons/fa";
+import { FiGithub, FiLinkedin } from "react-icons/fi";
 import "./Sidebar.css";
 
 class LeftSidebar extends Component {
@@ -7,14 +7,14 @@ class LeftSidebar extends Component {
     return (
       <ul className="LeftSidebar">
         <li>
-          <FaGithub
+          <FiGithub
             className="LeftSidebar-icons"
             alt="GitHub"
             onClick={() => window.open("https://github.com/diogodeese")}
           />
         </li>
         <li>
-          <FaLinkedinIn
+          <FiLinkedin
             className="LeftSidebar-icons"
             alt="Linkedin"
             onClick={() => window.open("https://linkedin.com/in/diogodeese/")}
