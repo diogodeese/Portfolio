@@ -28,14 +28,14 @@
 
 .Navbar-links {
   padding: 0.5rem 1rem;
-  color: #fff;
+  color: #d1cdcd;
   font-weight: 500;
+  border: 1px solid transparent;
 }
 
 .Navbar-links:hover {
-  background-color: #ffd6d6;
-  color: #d14949;
-  border-radius: 4px;
+  border: 1px solid #d14949;
+  border-radius: 5px;
   transition: all 0.4s ease-out;
   cursor: pointer;
 }
