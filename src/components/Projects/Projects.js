@@ -42,44 +42,47 @@ export default function Projects() {
       </div>
       <div className="Projects-container">
         <div className="Project-wrapper">
-          {projects.slice(0, projectsNumber).map((project, index) => {
-            return (
-              <div key={index} className="Project">
-                <FiFolder className="Project-main-icon" />
-                <ul className="Project-links">
-                  {project.links
-                    .filter((link) => link.name === "GitHub")
-                    .map((link) => (
-                      <li>
-                        <FiGithub
-                          className="Project-icons"
-                          onClick={() => window.open(link.link)}
-                        />
-                      </li>
-                    ))}
-                  {project.links
-                    .filter((link) => link.name === "External Link")
-                    .map((link) => (
-                      <li>
-                        <FiExternalLink
-                          className="Project-icons"
-                          onClick={() => window.open(link.link)}
-                        />
-                      </li>
-                    ))}
-                </ul>
-                <h2>{project.title}</h2>
-                <h4>{project.description}</h4>
-                <div className="Project-footer">
-                  <ul className="Project-footer-languages">
-                    {project.languages.map((language) => (
-                      <li>{language}</li>
-                    ))}
+          {projects
+            .slice(0, projectsNumber)
+            .filter((project) => project.showcase)
+            .map((project, index) => {
+              return (
+                <div key={index} className="Project">
+                  <FiFolder className="Project-main-icon" />
+                  <ul className="Project-links">
+                    {project.links
+                      .filter((link) => link.name === "GitHub")
+                      .map((link) => (
+                        <li>
+                          <FiGithub
+                            className="Project-icons"
+                            onClick={() => window.open(link.link)}
+                          />
+                        </li>
+                      ))}
+                    {project.links
+                      .filter((link) => link.name === "External Link")
+                      .map((link) => (
+                        <li>
+                          <FiExternalLink
+                            className="Project-icons"
+                            onClick={() => window.open(link.link)}
+                          />
+                        </li>
+                      ))}
                   </ul>
+                  <h2>{project.title}</h2>
+                  <h4>{project.description}</h4>
+                  <div className="Project-footer">
+                    <ul className="Project-footer-languages">
+                      {project.languages.map((language) => (
+                        <li>{language}</li>
+                      ))}
+                    </ul>
+                  </div>
                 </div>
-              </div>
-            );
-          })}
+              );
+            })}
         </div>
       </div>
       <div className="Project-button-div">

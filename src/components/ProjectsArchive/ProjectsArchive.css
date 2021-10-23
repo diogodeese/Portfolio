@@ -49,11 +49,13 @@
 
 .ProjectsArchive-icons {
   margin-right: 10px;
-  font-size: 20px;
+  font-size: 22px;
   color: #d9c5c5;
   cursor: pointer;
+  transition: transform ease 400ms;
 }
 
 .ProjectsArchive-icons:hover {
   color: #d14949;
+  transform: translate(0, -5px);
 }

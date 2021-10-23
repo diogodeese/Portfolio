@@ -48,12 +48,6 @@
   background-color: #262626;
   border-radius: 5px;
   box-shadow: rgba(0, 0, 0, 0.26) 0px 3px 6px;
-  transition: transform ease 400ms;
-}
-
-.Project:hover {
-  cursor: pointer;
-  transform: translate(0, -10px);
 }
 
 .Project-main-icon {
@@ -69,21 +63,29 @@
   justify-content: flex-end;
   display: flex;
   width: 84%;
-  height: 30px;
-  margin-bottom: 20px;
+  height: 40px;
+  margin-bottom: 15px;
   background-color: transparent;
 }
 
 .Project-links li {
+  height: 40px;
   margin-inline: 5px;
   background-color: transparent;
 }
 
 .Project-icons {
+  margin-top: 10px;
   font-size: 22px;
   color: #facaca;
   cursor: pointer;
   background-color: transparent;
+  transition: transform ease 400ms;
+}
+
+.Project-icons:hover {
+  color: #d14949;
+  transform: translate(0, -5px);
 }
 
 .Project h2 {
@@ -98,7 +100,7 @@
 }
 
 .Project h4 {
-  margin-top: 20px;
+  margin-top: 15px;
   margin-bottom: 20px;
   font-size: 14px;
   letter-spacing: 2px;
