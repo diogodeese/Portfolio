@@ -1,11 +1,13 @@
 import React, { useEffect, useState } from "react";
 import useWindowDimensions from "../WindowDimensions";
+import { useHistory } from "react-router-dom";
 import { FiFolder, FiGithub, FiExternalLink } from "react-icons/fi";
-import { projects } from "./MyProjects";
+import { projects } from "../MyProjects";
 import "./Projects.css";
 
 export default function Projects() {
   const { height, width } = useWindowDimensions();
+  const history = useHistory();
   const [projectsNumber, setProjectsNumber] = useState(8);
   const [adicionalHeigh, setAdicionalHeigh] = useState(100);
 
@@ -81,7 +83,12 @@ export default function Projects() {
         </div>
       </div>
       <div className="Project-button-div">
-        <button className="Projects-button">Projects Archive</button>
+        <button
+          className="Projects-button"
+          onClick={() => history.push("/archive")}
+        >
+          Projects Archive
+        </button>
       </div>
     </div>
   );
