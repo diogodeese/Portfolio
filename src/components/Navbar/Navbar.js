@@ -55,6 +55,17 @@ export default class Navbar extends Component {
           </Link>
           <Link
             activeClass="Active"
+            to="about"
+            spy={true}
+            smooth={true}
+            offset={0}
+            duration={1000}
+            className="Navbar-links"
+          >
+            About
+          </Link>
+          <Link
+            activeClass="Active"
             to="projects"
             spy={true}
             smooth={true}
@@ -63,17 +74,6 @@ export default class Navbar extends Component {
             className="Navbar-links"
           >
             Projects
-          </Link>
-          <Link
-            activeClass="Active"
-            to="skillset"
-            spy={true}
-            smooth={true}
-            offset={0}
-            duration={1000}
-            className="Navbar-links"
-          >
-            Skillset
           </Link>
           <Link
             activeClass="Active"
