@@ -10,7 +10,11 @@ export default function ProjectsArchive() {
   const history = useHistory();
 
   return (
-    <div style={{ minHeight: height }}>
+    <div
+      style={{
+        Height: height,
+      }}
+    >
       <div className="ProjectsArchive-introduction">
         <h1 className="ProjectsArchive-title">Archive</h1>
         <h4 className="ProjectsArchive-description">
@@ -63,7 +67,6 @@ export default function ProjectsArchive() {
           })}
         </table>
       </div>
-      <button onClick={() => history.push("/")}>Go Back</button>
     </div>
   );
 }
