@@ -1,9 +1,9 @@
 import React from "react";
 import useWindowDimensions from "../WindowDimensions";
-import "./Skillset.css";
+import "./About.css";
 
-export default function Skillset() {
+export default function About() {
   const { height } = useWindowDimensions();
 
-  return <div id="skillset" style={{ height: height }}></div>;
+  return <div id="about" style={{ height: height }}></div>;
 }
