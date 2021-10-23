@@ -1,11 +1,11 @@
-.Presentation {
+.Hero {
   display: flex;
   align-items: center;
   justify-content: center;
   margin-inline: 100px;
 }
 
-.Presentation-container {
+.Hero-container {
   display: block;
   margin-right: 15%;
   margin-bottom: 5%;
@@ -16,13 +16,13 @@
   box-sizing: border-box;
 }
 
-.Presentation-before-title {
+.Hero-before-title {
   margin-bottom: 20px;
   letter-spacing: 3px;
   color: #d14949;
 }
 
-.Presentation-title {
+.Hero-title {
   justify-self: start;
   font-family: "Calibre", "Inter", "San Francisco", "SF Pro Text", -apple-system,
     system-ui, sans-serif;
@@ -32,7 +32,7 @@
   cursor: default;
 }
 
-.Presentation-under-title {
+.Hero-under-title {
   margin-top: 10px;
   margin-bottom: 40px;
   letter-spacing: 2px;
@@ -40,7 +40,7 @@
   color: #d9c5c5;
 }
 
-.Presentation-download-button {
+.Hero-download-button {
   padding: 0.5rem 1rem;
   color: #d9c5c5;
   font-size: 20px;
@@ -49,41 +49,38 @@
   border-radius: 4px;
 }
 
-.Presentation-download-button:hover {
+.Hero-download-button:hover {
   background-color: #d14949;
   border-radius: 4px;
   transition: all 0.4s ease-out;
   cursor: pointer;
 }
 
-@media only screen and (max-width: 1720px) {
-}
-
 @media only screen and (max-width: 800px) {
-  .Presentation {
+  .Hero {
     margin-inline: 0;
   }
 
-  .Presentation-container {
+  .Hero-container {
     margin: 25px;
     margin-bottom: 5%;
   }
 
-  .Presentation-before-title {
+  .Hero-before-title {
     font-size: 3vw;
     letter-spacing: 2px;
     margin-bottom: 10px;
   }
 
-  .Presentation-title {
+  .Hero-title {
     font-size: 6vw;
   }
 
-  .Presentation-under-title {
+  .Hero-under-title {
     font-size: 3.5vw;
   }
 
-  .Presentation-download-button {
+  .Hero-download-button {
     font-size: 3.5vw;
   }
 }

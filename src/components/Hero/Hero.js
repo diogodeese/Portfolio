@@ -1,24 +1,24 @@
 import React from "react";
 import useWindowDimensions from "../WindowDimensions";
-import "./Presentation.css";
+import "./Hero.css";
 
-export default function Presentation() {
+export default function Hero() {
   const { height } = useWindowDimensions();
 
   return (
-    <div id="home" className="Presentation" style={{ height: height }}>
-      <div className="Presentation-container">
-        <h3 className="Presentation-before-title">Hi, my name is</h3>
-        <h1 className="Presentation-title">
+    <div id="home" className="Hero" style={{ height: height }}>
+      <div className="Hero-container">
+        <h3 className="Hero-before-title">Hi, my name is</h3>
+        <h1 className="Hero-title">
           Diogo Santos.
           <br />I solve problems by coding.
         </h1>
-        <h3 className="Presentation-under-title">
+        <h3 className="Hero-under-title">
           I'm software engineer that likes to learn new technologies and work
           with enthusiastic teams.
         </h3>
         <a
-          className="Presentation-download-button"
+          className="Hero-download-button"
           href="/images/myw3schoolsimage.jpg"
           download
         >
