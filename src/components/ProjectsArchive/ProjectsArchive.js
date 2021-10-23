@@ -1,20 +1,14 @@
 import React from "react";
 import useWindowDimensions from "../WindowDimensions";
-import { useHistory } from "react-router-dom";
 import { FiGithub, FiExternalLink } from "react-icons/fi";
 import { projects } from "../MyProjects";
 import "./ProjectsArchive.css";
 
 export default function ProjectsArchive() {
   const { height } = useWindowDimensions();
-  const history = useHistory();
 
   return (
-    <div
-      style={{
-        Height: height,
-      }}
-    >
+    <div style={{ Height: height }}>
       <div className="ProjectsArchive-introduction">
         <h1 className="ProjectsArchive-title">Archive</h1>
         <h4 className="ProjectsArchive-description">
@@ -23,7 +17,7 @@ export default function ProjectsArchive() {
         </h4>
       </div>
       <div className="ProjectsArchive-container">
-        <table style={{ width: "60%" }}>
+        <table style={{ width: "60%", marginBottom: 100 }}>
           <tr>
             <th>Year</th>
             <th>Title</th>
@@ -35,7 +29,13 @@ export default function ProjectsArchive() {
               <tr key={key} style={{ color: "#d1cdcd", height: 50 }}>
                 <td>{project.year.toString()}</td>
                 <td>{project.title}</td>
-                <td>
+                <td
+                  style={{
+                    fontFamily: "monospace",
+                    fontSize: 16,
+                    color: "#787575",
+                  }}
+                >
                   {project.languages.map((language, index) => (
                     <>{(index ? " · " : "") + language}</>
                   ))}
@@ -46,7 +46,7 @@ export default function ProjectsArchive() {
                     .map((link) => (
                       <>
                         <FiGithub
-                          className="Project-icons"
+                          className="ProjectsArchive-icons"
                           onClick={() => window.open(link.link)}
                         />
                       </>
@@ -56,7 +56,7 @@ export default function ProjectsArchive() {
                     .map((link) => (
                       <>
                         <FiExternalLink
-                          className="Project-icons"
+                          className="ProjectsArchive-icons"
                           onClick={() => window.open(link.link)}
                         />
                       </>
