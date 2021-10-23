@@ -40,6 +40,22 @@
   cursor: pointer;
 }
 
+.Navbar-button {
+  padding: 0.5rem 1rem;
+  color: #d9c5c5;
+  font-size: 18px;
+  text-decoration: none;
+  border: 1px solid #d14949;
+  border-radius: 4px;
+}
+
+.Navbar-button:hover {
+  background-color: #d14949;
+  border-radius: 4px;
+  transition: all 0.4s ease-out;
+  cursor: pointer;
+}
+
 .Navbar .Active {
   background-color: #d14949;
   color: #fff;
