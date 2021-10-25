@@ -1,0 +1,51 @@
+.About {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.About-left-container {
+  width: 50%;
+  height: 100%;
+  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 25px;
+}
+
+.About-right-container {
+  width: 50%;
+  height: 100%;
+  float: right;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 25px;
+}
+
+.About-title {
+  justify-self: start;
+  font-family: "Calibre", "Inter", "San Francisco", "SF Pro Text", -apple-system,
+    system-ui, sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  color: #ffacac;
+}
+
+.About-description {
+  max-width: 400px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  letter-spacing: 2px;
+  color: #d1cdcd;
+  background-color: transparent;
+}
+
+.About-left-container ul li {
+  margin-bottom: 5px;
+  font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
+  font-size: 16px;
+  color: #787575;
+}
