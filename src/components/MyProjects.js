@@ -91,4 +91,38 @@ export const projects = [
       },
     ],
   },
+  {
+    showcase: true,
+    year: 2021,
+    title: "Nasa API",
+    description: "Beautiful description that I didnt think about yet",
+    languages: ["React", "JavaScript"],
+    links: [
+      {
+        name: "GitHub",
+        link: "https://github.com/diogodeese",
+      },
+      {
+        name: "External Link",
+        link: "https://www.linkedin.com/feed/",
+      },
+    ],
+  },
+  {
+    showcase: true,
+    year: 2021,
+    title: "Portfolio Version 1",
+    description: "Beautiful description that I didnt think about yet",
+    languages: ["React", "JavaScript"],
+    links: [
+      {
+        name: "GitHub",
+        link: "https://github.com/diogodeese",
+      },
+      {
+        name: "External Link",
+        link: "https://www.linkedin.com/feed/",
+      },
+    ],
+  },
 ];
