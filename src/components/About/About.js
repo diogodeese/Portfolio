@@ -1,5 +1,6 @@
 import React from "react";
 import useWindowDimensions from "../WindowDimensions";
+import profilePicture from "../../assets/profile-picture.jfif";
 import "./About.css";
 
 export default function About() {
@@ -27,7 +28,7 @@ export default function About() {
         </div>
       </div>
       <div className="About-right-container">
-        <h1>Image</h1>
+        <img src={profilePicture} alt="as" className="About-image" />
       </div>
     </div>
   );

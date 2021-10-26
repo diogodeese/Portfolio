@@ -49,3 +49,10 @@
   font-size: 16px;
   color: #787575;
 }
+
+.About-image {
+  height: 400px;
+  width: 400px;
+  border: 2px solid #d14949;
+  border-radius: 10px;
+}
