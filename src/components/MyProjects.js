@@ -66,11 +66,7 @@ export const projects = [
     links: [
       {
         name: "GitHub",
-        link: "https://github.com/diogodeese",
-      },
-      {
-        name: "External Link",
-        link: "https://www.linkedin.com/feed/",
+        link: "https://github.com/diogodeese/ScanIt",
       },
     ],
   },
