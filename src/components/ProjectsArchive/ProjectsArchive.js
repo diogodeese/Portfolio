@@ -24,47 +24,51 @@ export default function ProjectsArchive() {
             <th>Built With</th>
             <th>Links</th>
           </tr>
-          {projects.map((project, key) => {
-            return (
-              <tr key={key} style={{ color: "#d1cdcd", height: 50 }}>
-                <td>{project.year.toString()}</td>
-                <td>{project.title}</td>
-                <td
-                  style={{
-                    fontFamily: "monospace",
-                    fontSize: 16,
-                    color: "#787575",
-                  }}
-                >
-                  {project.languages.map((language, index) => (
-                    <>{(index ? " · " : "") + language}</>
-                  ))}
-                </td>
-                <td>
-                  {project.links
-                    .filter((link) => link.name === "GitHub")
-                    .map((link) => (
-                      <>
-                        <FiGithub
-                          className="ProjectsArchive-icons"
-                          onClick={() => window.open(link.link)}
-                        />
-                      </>
+          {projects
+            .sort((projectA, projectB) =>
+              projectA.year > projectB.year ? -1 : 1
+            )
+            .map((project, key) => {
+              return (
+                <tr key={key} style={{ color: "#d1cdcd", height: 50 }}>
+                  <td>{project.year.toString()}</td>
+                  <td>{project.title}</td>
+                  <td
+                    style={{
+                      fontFamily: "monospace",
+                      fontSize: 16,
+                      color: "#787575",
+                    }}
+                  >
+                    {project.languages.map((language, index) => (
+                      <>{(index ? " · " : "") + language}</>
                     ))}
-                  {project.links
-                    .filter((link) => link.name === "External Link")
-                    .map((link) => (
-                      <>
-                        <FiExternalLink
-                          className="ProjectsArchive-icons"
-                          onClick={() => window.open(link.link)}
-                        />
-                      </>
-                    ))}
-                </td>
-              </tr>
-            );
-          })}
+                  </td>
+                  <td>
+                    {project.links
+                      .filter((link) => link.name === "GitHub")
+                      .map((link) => (
+                        <>
+                          <FiGithub
+                            className="ProjectsArchive-icons"
+                            onClick={() => window.open(link.link)}
+                          />
+                        </>
+                      ))}
+                    {project.links
+                      .filter((link) => link.name === "External Link")
+                      .map((link) => (
+                        <>
+                          <FiExternalLink
+                            className="ProjectsArchive-icons"
+                            onClick={() => window.open(link.link)}
+                          />
+                        </>
+                      ))}
+                  </td>
+                </tr>
+              );
+            })}
         </table>
       </div>
     </div>
