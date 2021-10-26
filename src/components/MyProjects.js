@@ -94,7 +94,7 @@ export const projects = [
   {
     showcase: true,
     year: 2021,
-    title: "Nasa API",
+    title: "Space Knowledge",
     description: "Beautiful description that I didnt think about yet",
     languages: ["React", "JavaScript"],
     links: [
