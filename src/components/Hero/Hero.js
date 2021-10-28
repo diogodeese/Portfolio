@@ -14,8 +14,8 @@ export default function Hero() {
           <br />I solve problems by coding.
         </h1>
         <h3 className="Hero-under-title">
-          I'm software engineer that likes to learn new technologies and work
-          with enthusiastic teams.
+          I'm someone that likes to learn new technologies and work with
+          enthusiastic teams.
         </h3>
         <a
           className="Hero-download-button"

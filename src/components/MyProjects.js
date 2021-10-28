@@ -2,19 +2,14 @@ export const projects = [
   {
     showcase: true,
     year: 2021,
-    title: "Mobile Zoo App",
+    title: "Lisbon Zoo App",
     description:
-      "I build this mobile application because when I visited a zoo I couldn't remember wich animals i did see.",
+      "Lisbon Zoo map that helps you to know wich animals you did see, you just need to scan their QR Code and they will show up different on the map.",
     languages: ["React Native", "JavaScript"],
     links: [
       {
         name: "GitHub",
         link: "https://github.com/diogodeese",
-        icon: "FiGithub",
-      },
-      {
-        name: "External Link",
-        link: "https://www.linkedin.com/feed/",
         icon: "FiGithub",
       },
     ],
@@ -25,7 +20,7 @@ export const projects = [
     year: 2021,
     title: "Evee Discord Bot",
     description:
-      "Discord bot made by me and my friend to automate things on our comunication platform",
+      "Discord bot to automate actions on Discord, like play music, decide between options and search for google images on a Discord server chat.",
     languages: ["JavaScript", "Discord.js"],
     links: [
       {
@@ -40,28 +35,10 @@ export const projects = [
   },
   {
     showcase: true,
-    year: 2021,
-    title: "Future Porofessor",
-    description: "Beautiful description that I didnt think about yet",
-    languages: ["JavaScript"],
-    links: [
-      {
-        name: "GitHub",
-        link: "https://github.com/diogodeese",
-      },
-      {
-        name: "External Link",
-        link: "https://www.linkedin.com/feed/",
-      },
-    ],
-  },
-
-  {
-    showcase: true,
     year: 2020,
-    title: "Cloud Website",
+    title: "ScanIt",
     description:
-      "I build this website with the idea of tranfering images trough qr codes and download them on your mobile device",
+      "Cloud website, where you can add files to it in your computer, and download them with any mobile device by scanning a QR Code.",
     languages: ["HTML", "JavaScript", "PHP", "MySQL"],
     links: [
       {
@@ -91,7 +68,8 @@ export const projects = [
     showcase: true,
     year: 2021,
     title: "Space Knowledge",
-    description: "Beautiful description that I didnt think about yet",
+    description:
+      "Built using Nasa Apod (Astronomy Picture of the Day) API. First experience with API's, decided to use this one because I like the space.",
     languages: ["React", "JavaScript"],
     links: [
       {
@@ -107,8 +85,9 @@ export const projects = [
   {
     showcase: true,
     year: 2021,
-    title: "Portfolio Version 1",
-    description: "Beautiful description that I didnt think about yet",
+    title: "Portfolio",
+    description:
+      "You are looking at it right now. Inspired by other portfolios I decided to create my own.",
     languages: ["React", "JavaScript"],
     links: [
       {

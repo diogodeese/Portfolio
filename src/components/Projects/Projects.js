@@ -45,6 +45,9 @@ export default function Projects() {
           {projects
             .slice(0, projectsNumber)
             .filter((project) => project.showcase)
+            .sort((projectA, projectB) =>
+              projectA.year > projectB.year ? -1 : 1
+            )
             .map((project, index) => {
               return (
                 <div key={index} className="Project">
