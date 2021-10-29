@@ -29,7 +29,7 @@ export const projects = [
       },
       {
         name: "External Link",
-        link: "https://www.linkedin.com/feed/",
+        link: "https://discord.com/oauth2/authorize?client_id=775530325572976640&scope=bot&permissions=8",
       },
     ],
   },
