@@ -17,7 +17,7 @@ export default function ProjectsArchive() {
         </h4>
       </div>
       <div className="ProjectsArchive-container">
-        <table style={{ width: "60%", marginBottom: 100 }}>
+        <table>
           <tr>
             <th>Year</th>
             <th>Title</th>

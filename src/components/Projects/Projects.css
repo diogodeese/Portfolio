@@ -170,7 +170,11 @@
 }
 
 @media only screen and (max-width: 800px) {
+  .Projects-title {
+    font-size: 8vw;
+  }
+
   .Projects-button {
-    font-size: 3.5vw;
+    font-size: 5vw;
   }
 }

@@ -31,6 +31,11 @@
   justify-content: center;
 }
 
+.ProjectsArchive-container table {
+  width: 60%;
+  margin-bottom: 100;
+}
+
 .ProjectsArchive-container table th {
   text-align: left;
   font-size: 20px;
@@ -58,4 +63,24 @@
 .ProjectsArchive-icons:hover {
   color: #d14949;
   transform: translate(0, -5px);
+}
+
+@media only screen and (max-width: 1280px) {
+  .ProjectsArchive-container table {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .ProjectsArchive-introduction {
+    margin-inline: 25px;
+  }
+
+  .ProjectsArchive-title {
+    font-size: 8vw;
+  }
+
+  .ProjectsArchive-description {
+    font-size: 3vw;
+  }
 }

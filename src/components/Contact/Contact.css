@@ -51,3 +51,21 @@
   transition: all 0.4s ease-out;
   cursor: pointer;
 }
+
+@media only screen and (max-width: 800px) {
+  .Contact-container {
+    margin: 25px;
+  }
+
+  .Contact-title {
+    font-size: 8vw;
+  }
+
+  .Contact-description {
+    font-size: 3.5vw;
+  }
+
+  .Contact-button {
+    font-size: 5vw;
+  }
+}
