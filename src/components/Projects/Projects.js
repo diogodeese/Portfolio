@@ -48,15 +48,15 @@ export default function Projects() {
             .sort((projectA, projectB) =>
               projectA.year > projectB.year ? -1 : 1
             )
-            .map((project, index) => {
+            .map((project, key) => {
               return (
-                <div key={index} className="Project">
+                <div key={key} className="Project">
                   <FiFolder className="Project-main-icon" />
                   <ul className="Project-links">
                     {project.links
                       .filter((link) => link.name === "GitHub")
-                      .map((link) => (
-                        <li>
+                      .map((link, key) => (
+                        <li key={key}>
                           <FiGithub
                             className="Project-icons"
                             onClick={() => window.open(link.link)}
@@ -65,8 +65,8 @@ export default function Projects() {
                       ))}
                     {project.links
                       .filter((link) => link.name === "External Link")
-                      .map((link) => (
-                        <li>
+                      .map((link, key) => (
+                        <li key={key}>
                           <FiExternalLink
                             className="Project-icons"
                             onClick={() => window.open(link.link)}
@@ -78,8 +78,8 @@ export default function Projects() {
                   <h4>{project.description}</h4>
                   <div className="Project-footer">
                     <ul className="Project-footer-languages">
-                      {project.languages.map((language) => (
-                        <li>{language}</li>
+                      {project.languages.map((language, key) => (
+                        <li key={key}>{language}</li>
                       ))}
                     </ul>
                   </div>

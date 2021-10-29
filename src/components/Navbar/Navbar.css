@@ -17,6 +17,14 @@
   letter-spacing: 2px;
 }
 
+.NavbarArchive-title {
+  position: absolute;
+  left: 50px;
+  color: #d14949;
+  cursor: default;
+  letter-spacing: 2px;
+}
+
 .Navbar-menu {
   display: grid;
   grid-template-columns: repeat(4, auto);
@@ -83,8 +91,24 @@
     width: 100%;
     text-align: center;
   }
+
+  .NavbarArchive-title {
+    font-size: 5vw;
+    left: 0;
+    width: 50%;
+    text-align: center;
+  }
+
   .Navbar-links {
     transition: 0.3s ease transform;
     display: none;
+  }
+
+  .Navbar-menu {
+    margin-left: 50%;
+  }
+
+  .Navbar-button {
+    font-size: 4vw;
   }
 }

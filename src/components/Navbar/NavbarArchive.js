@@ -7,7 +7,7 @@ export default function NavbarArchive() {
 
   return (
     <nav className="Navbar">
-      <h1 className="Navbar-title">Diogo Santos</h1>
+      <h1 className="NavbarArchive-title">Diogo Santos</h1>
       <div className="Navbar-menu">
         <button
           className="Navbar-button"

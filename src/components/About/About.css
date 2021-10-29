@@ -73,6 +73,7 @@
   .About-right-container {
     width: 100%;
     height: 50%;
+    padding-inline: 15%;
   }
 
   .About-title {

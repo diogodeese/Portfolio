@@ -67,20 +67,20 @@
   }
 
   .Hero-before-title {
-    font-size: 3vw;
+    font-size: 4vw;
     letter-spacing: 2px;
     margin-bottom: 10px;
   }
 
   .Hero-title {
-    font-size: 6vw;
+    font-size: 6.5vw;
   }
 
   .Hero-under-title {
-    font-size: 3.5vw;
+    font-size: 4vw;
   }
 
   .Hero-download-button {
-    font-size: 3.5vw;
+    font-size: 4vw;
   }
 }

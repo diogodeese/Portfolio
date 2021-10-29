@@ -81,6 +81,22 @@
   }
 
   .ProjectsArchive-description {
-    font-size: 3vw;
+    font-size: 3.5vw;
+  }
+
+  .ProjectsArchive-container table {
+    width: 85%;
+  }
+
+  .ProjectsArchive-container table th {
+    font-size: 4vw;
+  }
+
+  .ProjectsArchive-container table td {
+    font-size: 4vw;
+  }
+
+  .ProjectsArchive-table-languages {
+    display: none;
   }
 }

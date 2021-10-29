@@ -18,57 +18,62 @@ export default function ProjectsArchive() {
       </div>
       <div className="ProjectsArchive-container">
         <table>
-          <tr>
-            <th>Year</th>
-            <th>Title</th>
-            <th>Built With</th>
-            <th>Links</th>
-          </tr>
-          {projects
-            .sort((projectA, projectB) =>
-              projectA.year > projectB.year ? -1 : 1
-            )
-            .map((project, key) => {
-              return (
-                <tr key={key} style={{ color: "#d1cdcd", height: 50 }}>
-                  <td>{project.year.toString()}</td>
-                  <td>{project.title}</td>
-                  <td
-                    style={{
-                      fontFamily: "monospace",
-                      fontSize: 16,
-                      color: "#787575",
-                    }}
-                  >
-                    {project.languages.map((language, index) => (
-                      <>{(index ? " · " : "") + language}</>
-                    ))}
-                  </td>
-                  <td>
-                    {project.links
-                      .filter((link) => link.name === "GitHub")
-                      .map((link) => (
-                        <>
-                          <FiGithub
-                            className="ProjectsArchive-icons"
-                            onClick={() => window.open(link.link)}
-                          />
-                        </>
+          <thead>
+            <tr>
+              <th>Year</th>
+              <th>Title</th>
+              <th className="ProjectsArchive-table-languages">Built With</th>
+              <th>Links</th>
+            </tr>
+          </thead>
+          <tbody>
+            {projects
+              .sort((projectA, projectB) =>
+                projectA.year > projectB.year ? -1 : 1
+              )
+              .map((project, key) => {
+                return (
+                  <tr key={key} style={{ color: "#d1cdcd", height: 50 }}>
+                    <td>{project.year.toString()}</td>
+                    <td>{project.title}</td>
+                    <td
+                      className="ProjectsArchive-table-languages"
+                      style={{
+                        fontFamily: "monospace",
+                        fontSize: 16,
+                        color: "#787575",
+                      }}
+                    >
+                      {project.languages.map((language, key) => (
+                        <div key={key}>{(key ? " · " : "") + language}</div>
                       ))}
-                    {project.links
-                      .filter((link) => link.name === "External Link")
-                      .map((link) => (
-                        <>
-                          <FiExternalLink
-                            className="ProjectsArchive-icons"
-                            onClick={() => window.open(link.link)}
-                          />
-                        </>
-                      ))}
-                  </td>
-                </tr>
-              );
-            })}
+                    </td>
+                    <td style={{ display: "flex" }}>
+                      {project.links
+                        .filter((link) => link.name === "GitHub")
+                        .map((link, key) => (
+                          <div key={key}>
+                            <FiGithub
+                              className="ProjectsArchive-icons"
+                              onClick={() => window.open(link.link)}
+                            />
+                          </div>
+                        ))}
+                      {project.links
+                        .filter((link) => link.name === "External Link")
+                        .map((link, key) => (
+                          <div key={key}>
+                            <FiExternalLink
+                              className="ProjectsArchive-icons"
+                              onClick={() => window.open(link.link)}
+                            />
+                          </div>
+                        ))}
+                    </td>
+                  </tr>
+                );
+              })}
+          </tbody>
         </table>
       </div>
     </div>
