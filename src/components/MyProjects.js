@@ -24,10 +24,6 @@ export const projects = [
     languages: ["JavaScript", "Discord.js"],
     links: [
       {
-        name: "GitHub",
-        link: "https://github.com/diogodeese",
-      },
-      {
         name: "External Link",
         link: "https://discord.com/oauth2/authorize?client_id=775530325572976640&scope=bot&permissions=8",
       },
@@ -76,10 +72,6 @@ export const projects = [
         name: "GitHub",
         link: "https://github.com/diogodeese",
       },
-      {
-        name: "External Link",
-        link: "https://www.linkedin.com/feed/",
-      },
     ],
   },
   {
@@ -96,7 +88,7 @@ export const projects = [
       },
       {
         name: "External Link",
-        link: "https://www.linkedin.com/feed/",
+        link: "https://wonderful-pike-b1c833.netlify.app/",
       },
     ],
   },
