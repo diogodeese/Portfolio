@@ -1,13 +1,24 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import useWindowDimensions from "../WindowDimensions";
 import profilePicture from "../../assets/profile-picture.jfif";
 import "./About.css";
 
 export default function About() {
-  const { height } = useWindowDimensions();
+  const { height, width } = useWindowDimensions();
+  const [adicionalHeigh, setAdicionalHeigh] = useState(0);
+
+  useEffect(() => {
+    if (width < 900) {
+      setAdicionalHeigh(150);
+    }
+  }, [width, height]);
 
   return (
-    <div id="about" className="About" style={{ height: height }}>
+    <div
+      id="about"
+      className="About"
+      style={{ height: height + adicionalHeigh }}
+    >
       <div className="About-left-container">
         <div style={{ display: "block" }}>
           <h1 className="About-title">About Me</h1>
