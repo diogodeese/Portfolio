@@ -52,6 +52,10 @@
   font-weight: 500;
 }
 
+.ProjectsArchive-table-languages {
+  align-items: center;
+}
+
 .ProjectsArchive-icons {
   margin-right: 10px;
   font-size: 22px;
@@ -76,6 +80,16 @@
     margin-inline: 25px;
   }
 
+  .ProjectsArchive-container table {
+    width: 85%;
+  }
+
+  .ProjectsArchive-table-languages {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 600px) {
   .ProjectsArchive-title {
     font-size: 8vw;
   }
@@ -84,19 +98,11 @@
     font-size: 3.5vw;
   }
 
-  .ProjectsArchive-container table {
-    width: 85%;
-  }
-
   .ProjectsArchive-container table th {
     font-size: 4vw;
   }
 
   .ProjectsArchive-container table td {
     font-size: 4vw;
-  }
-
-  .ProjectsArchive-table-languages {
-    display: none;
   }
 }

@@ -8,7 +8,7 @@ export default function ProjectsArchive() {
   const { height } = useWindowDimensions();
 
   return (
-    <div style={{ Height: height }}>
+    <div style={{ Height: height, marginBottom: 150 }}>
       <div className="ProjectsArchive-introduction">
         <h1 className="ProjectsArchive-title">Archive</h1>
         <h4 className="ProjectsArchive-description">
@@ -45,29 +45,29 @@ export default function ProjectsArchive() {
                       }}
                     >
                       {project.languages.map((language, key) => (
-                        <div key={key}>{(key ? " · " : "") + language}</div>
+                        <>{(key ? " · " : "") + language}</>
                       ))}
                     </td>
-                    <td style={{ display: "flex" }}>
+                    <td>
                       {project.links
                         .filter((link) => link.name === "GitHub")
-                        .map((link, key) => (
-                          <div key={key}>
+                        .map((link) => (
+                          <>
                             <FiGithub
                               className="ProjectsArchive-icons"
                               onClick={() => window.open(link.link)}
                             />
-                          </div>
+                          </>
                         ))}
                       {project.links
                         .filter((link) => link.name === "External Link")
-                        .map((link, key) => (
-                          <div key={key}>
+                        .map((link) => (
+                          <>
                             <FiExternalLink
                               className="ProjectsArchive-icons"
                               onClick={() => window.open(link.link)}
                             />
-                          </div>
+                          </>
                         ))}
                     </td>
                   </tr>
