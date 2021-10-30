@@ -12,13 +12,16 @@ export default function About() {
         <div style={{ display: "block" }}>
           <h1 className="About-title">About Me</h1>
           <h3 className="About-description">
-            Im a really cool person that have no idea what to write in here, so
-            Im just going to write non sense things and hope that someone helps
-            me to figure out what Im.
+            Hi! My name is Diogo and I enjoy automating actions and creating
+            good looking interfaces. I chose this career path back in 2018 when
+            I decided to join my programming school course and since then I've
+            been creating projects that I like and that I find useful.
             <br /> <br />
-            Im probably a good person my Im not that sure, but I hope Im.
+            Nowadays I'm focused on really learning JavaScript, so I chose React
+            as my main framework (Library) and started developing all kinds of
+            projects that interest me!
             <br /> <br />
-            Faith in god.
+            These are the technologies I've been working with recently:
           </h3>
           <ul>
             <li>React</li>
@@ -28,7 +31,11 @@ export default function About() {
         </div>
       </div>
       <div className="About-right-container">
-        <img src={profilePicture} alt="as" className="About-image" />
+        <img
+          src={profilePicture}
+          alt="My beautiful face should be here"
+          className="About-image"
+        />
       </div>
     </div>
   );
