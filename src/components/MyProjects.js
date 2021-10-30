@@ -6,13 +6,7 @@ export const projects = [
     description:
       "Lisbon Zoo map that helps you to know wich animals you did see, you just need to scan their QR Code and they will show up different on the map.",
     languages: ["React Native", "JavaScript"],
-    links: [
-      {
-        name: "GitHub",
-        link: "https://github.com/diogodeese",
-        icon: "FiGithub",
-      },
-    ],
+    links: [],
   },
 
   {
@@ -45,23 +39,6 @@ export const projects = [
   },
   {
     showcase: true,
-    year: 2019,
-    title: "Test Project",
-    description: "Beautiful description that I didnt think about yet",
-    languages: ["JavaScript"],
-    links: [
-      {
-        name: "GitHub",
-        link: "https://github.com/diogodeese",
-      },
-      {
-        name: "External Link",
-        link: "https://www.linkedin.com/feed/",
-      },
-    ],
-  },
-  {
-    showcase: true,
     year: 2021,
     title: "Space Knowledge",
     description:
@@ -70,7 +47,7 @@ export const projects = [
     links: [
       {
         name: "GitHub",
-        link: "https://github.com/diogodeese",
+        link: "https://github.com/diogodeese/Space-Knowledge",
       },
     ],
   },
@@ -84,11 +61,11 @@ export const projects = [
     links: [
       {
         name: "GitHub",
-        link: "https://github.com/diogodeese",
+        link: "https://github.com/diogodeese/Portfolio",
       },
       {
         name: "External Link",
-        link: "https://wonderful-pike-b1c833.netlify.app/",
+        link: "https://https://www.diogodeese.com/",
       },
     ],
   },
