@@ -1,5 +1,6 @@
 import React from "react";
 import useWindowDimensions from "../WindowDimensions";
+import resumePdf from "../../assets/resume.pdf";
 import "./Hero.css";
 
 export default function Hero() {
@@ -17,11 +18,7 @@ export default function Hero() {
           I'm someone that likes to learn new technologies and work with
           enthusiastic teams.
         </h3>
-        <a
-          className="Hero-download-button"
-          href="/images/myw3schoolsimage.jpg"
-          download
-        >
+        <a className="Hero-button" href={resumePdf} target="blank">
           Check my Resume
         </a>
       </div>
