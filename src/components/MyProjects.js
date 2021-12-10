@@ -19,7 +19,7 @@ export const projects = [
     links: [
       {
         name: "External Link",
-        link: "https://discord.com/oauth2/authorize?client_id=775530325572976640&scope=bot&permissions=8",
+        link: "https://discord.com/oauth2/authorize?client_id=775530325572976640&permissions=8&scope=applications.commands%20bot",
       },
     ],
   },
