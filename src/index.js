@@ -4,8 +4,8 @@ import { Route, Switch, BrowserRouter as Router } from "react-router-dom";
 import "./index.css";
 
 import Home from "./pages/Home";
-import NotFoundPage from "./pages/NotFoundPage";
 import Archive from "./pages/Archive";
+import NotFoundPage from "./pages/NotFoundPage";
 
 function App() {
   return (
