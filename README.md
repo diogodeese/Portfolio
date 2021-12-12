@@ -1,6 +1,3 @@
-<div align="center">
-  <img alt="Logo" src="" width="100" />
-</div>
 <h1 align="center">
   diogodeese.com
 </h1>
