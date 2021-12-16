@@ -41,7 +41,7 @@
 
 .Project {
   height: 285px;
-  width: 265px;
+  width: 285px;
   margin: 5px;
   padding: 25px;
   position: relative;
@@ -94,7 +94,7 @@
   font-family: "Calibre", "Inter", "San Francisco", "SF Pro Text", -apple-system,
     system-ui, sans-serif;
   font-weight: 600;
-  letter-spacing: 1px;
+  letter-spacing: 0.5px;
   background-color: transparent;
   color: #facaca;
 }

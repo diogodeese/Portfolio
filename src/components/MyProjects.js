@@ -8,7 +8,6 @@ export const projects = [
     languages: ["React Native", "JavaScript"],
     links: [],
   },
-
   {
     showcase: true,
     year: 2021,
@@ -20,6 +19,20 @@ export const projects = [
       {
         name: "External Link",
         link: "https://discord.com/oauth2/authorize?client_id=775530325572976640&permissions=8&scope=applications.commands%20bot",
+      },
+    ],
+  },
+  {
+    showcase: true,
+    year: 2021,
+    title: "Pathfinding Algorithms",
+    description:
+      "Started this project to improve my logical programming side and to get used to develop complex algorithms.",
+    languages: ["React", "JavaScript"],
+    links: [
+      {
+        name: "GitHub",
+        link: "https://github.com/diogodeese/Pathfinding-Algorithms",
       },
     ],
   },
@@ -65,7 +78,7 @@ export const projects = [
       },
       {
         name: "External Link",
-        link: "https://https://www.diogodeese.com/",
+        link: "https://www.diogodeese.com/",
       },
     ],
   },
