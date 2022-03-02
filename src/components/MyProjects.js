@@ -1,11 +1,20 @@
 export const projects = [
   {
     showcase: true,
+    year: 2022,
+    title: "Drive",
+    description:
+      "Cloud website, where you can add files to it in your computer, and share them with other users on the platform.",
+    languages: ["Python", "Django"],
+    links: [],
+  },
+  {
+    showcase: true,
     year: 2021,
     title: "Lisbon Zoo App",
     description:
       "Lisbon Zoo map that helps you to know wich animals you did see, you just need to scan their QR Code and they will show up different on the map.",
-    languages: ["React Native", "JavaScript"],
+    languages: ["JavaScript", "React Native"],
     links: [],
   },
   {
@@ -14,7 +23,7 @@ export const projects = [
     title: "Evee Discord Bot",
     description:
       "Discord bot to automate actions on Discord, like play music, decide between options and search for google images on a Discord server chat.",
-    languages: ["JavaScript", "Discord.js"],
+    languages: ["JavaScript", "Discord.js", "Node.js"],
     links: [
       {
         name: "External Link",
@@ -27,12 +36,44 @@ export const projects = [
     year: 2021,
     title: "Pathfinding Algorithms",
     description:
-      "Started this project to improve my logical programming side and to get used to develop complex algorithms.",
-    languages: ["React", "JavaScript"],
+      "Visualizer of the pathfinding algorithms such as Dijkstra and A*.",
+    languages: ["JavaScript", "React"],
     links: [
       {
         name: "GitHub",
         link: "https://github.com/diogodeese/Pathfinding-Algorithms",
+      },
+    ],
+  },
+  {
+    showcase: true,
+    year: 2021,
+    title: "Space Knowledge",
+    description:
+      "Built with Nasa Apod (Astronomy Picture of the Day) API. First experience with API's, decided to use this one because I'm curious about the space.",
+    languages: ["JavaScript", "React"],
+    links: [
+      {
+        name: "GitHub",
+        link: "https://github.com/diogodeese/Space-Knowledge",
+      },
+    ],
+  },
+  {
+    showcase: true,
+    year: 2021,
+    title: "Portfolio",
+    description:
+      "You are looking at it right now. Inspired by other portfolios I decided to create my own.",
+    languages: ["JavaScript", "React"],
+    links: [
+      {
+        name: "GitHub",
+        link: "https://github.com/diogodeese/Portfolio",
+      },
+      {
+        name: "External Link",
+        link: "https://www.diogodeese.com/",
       },
     ],
   },
@@ -47,38 +88,6 @@ export const projects = [
       {
         name: "GitHub",
         link: "https://github.com/diogodeese/ScanIt",
-      },
-    ],
-  },
-  {
-    showcase: true,
-    year: 2021,
-    title: "Space Knowledge",
-    description:
-      "Built using Nasa Apod (Astronomy Picture of the Day) API. First experience with API's, decided to use this one because I like the space.",
-    languages: ["React", "JavaScript"],
-    links: [
-      {
-        name: "GitHub",
-        link: "https://github.com/diogodeese/Space-Knowledge",
-      },
-    ],
-  },
-  {
-    showcase: true,
-    year: 2021,
-    title: "Portfolio",
-    description:
-      "You are looking at it right now. Inspired by other portfolios I decided to create my own.",
-    languages: ["React", "JavaScript"],
-    links: [
-      {
-        name: "GitHub",
-        link: "https://github.com/diogodeese/Portfolio",
-      },
-      {
-        name: "External Link",
-        link: "https://www.diogodeese.com/",
       },
     ],
   },

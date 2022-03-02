@@ -34,11 +34,17 @@ export default function About() {
             <br /> <br />
             These are the technologies I've been working with recently:
           </h3>
-          <ul>
-            <li>React</li>
-            <li>JavaScript</li>
-            <li>Node.js</li>
-          </ul>
+          <div style={{ display: "flex" }}>
+            <ul style={{ marginRight: "50px" }}>
+              <li>React</li>
+              <li>Node.js</li>
+              <li>JavaScript</li>
+            </ul>
+            <ul>
+              <li>Django</li>
+              <li>Python</li>
+            </ul>
+          </div>
         </div>
       </div>
       <div className="About-right-container">
