@@ -13,6 +13,6 @@ export const H4 = styled.h4`
   }
 
   @media only screen and (max-width: ${({ theme }) => theme.breakpoints.sm}) {
-    font-size: 12px;
+    font-size: 14px;
   }
 `;

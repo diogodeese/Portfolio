@@ -1,9 +1,22 @@
 import React, { useEffect, useState } from "react";
-import useWindowDimensions from "../hooks/useWindowDimensions";
 import { useHistory } from "react-router-dom";
-import { FiFolder, FiGithub, FiExternalLink } from "react-icons/fi";
+
+// Utils
 import { projects } from "../helpers/MyProjects";
-import "../components/Projects/Projects.css";
+import useWindowDimensions from "../hooks/useWindowDimensions";
+
+// Styled Components
+import { MainContainer } from "../components/styles/MainContainer.styled";
+import {
+  ProjectsContainer,
+  ProjectsWrapper,
+  Project,
+  ProjectFooter,
+  ProjectLinks,
+} from "../components/styles/sections/ProjectsContainer.styled";
+import { H1 } from "../components/styles/H1.styled";
+import { AButton } from "../components/styles/Button.styled";
+import { FiFolder, FiGithub, FiExternalLink } from "react-icons/fi";
 
 export default function Projects() {
   const { height, width } = useWindowDimensions();
@@ -32,16 +45,22 @@ export default function Projects() {
   }, [width, height]);
 
   return (
-    <div
+    <MainContainer
       id="projects"
-      className="Projects"
-      style={{ height: height + adicionalHeigh, minHeight: 1000 }}
+      height={height + adicionalHeigh + "px"}
+      display={"block"}
     >
-      <div className="Projects-introduction">
-        <h1 className="Projects-title">My Projects</h1>
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          marginTop: "200px",
+        }}
+      >
+        <H1 size={"32px"}>My Projects</H1>
       </div>
-      <div className="Projects-container">
-        <div className="Project-wrapper">
+      <ProjectsContainer>
+        <ProjectsWrapper>
           {projects
             .slice(0, projectsNumber)
             .filter((project) => project.showcase)
@@ -50,15 +69,15 @@ export default function Projects() {
             )
             .map((project, key) => {
               return (
-                <div key={key} className="Project">
-                  <FiFolder className="Project-main-icon" />
-                  <ul className="Project-links">
+                <Project key={key}>
+                  <FiFolder id="main-icon" />
+                  <ProjectLinks>
                     {project.links
                       .filter((link) => link.name === "GitHub")
                       .map((link, key) => (
                         <li key={key}>
                           <FiGithub
-                            className="Project-icons"
+                            id="icons"
                             onClick={() => window.open(link.link)}
                           />
                         </li>
@@ -68,34 +87,31 @@ export default function Projects() {
                       .map((link, key) => (
                         <li key={key}>
                           <FiExternalLink
-                            className="Project-icons"
+                            id="icons"
                             onClick={() => window.open(link.link)}
                           />
                         </li>
                       ))}
-                  </ul>
+                  </ProjectLinks>
                   <h2>{project.title}</h2>
                   <h4>{project.description}</h4>
-                  <div className="Project-footer">
-                    <ul className="Project-footer-languages">
+                  <ProjectFooter>
+                    <ul>
                       {project.languages.map((language, key) => (
                         <li key={key}>{language}</li>
                       ))}
                     </ul>
-                  </div>
-                </div>
+                  </ProjectFooter>
+                </Project>
               );
             })}
-        </div>
-      </div>
-      <div className="Project-button-div">
-        <button
-          className="Projects-button"
-          onClick={() => history.push("/archive")}
-        >
+        </ProjectsWrapper>
+      </ProjectsContainer>
+      <div style={{ display: "flex", justifyContent: "center" }}>
+        <AButton onClick={() => history.push("/archive")}>
           Projects Archive
-        </button>
+        </AButton>
       </div>
-    </div>
+    </MainContainer>
   );
 }

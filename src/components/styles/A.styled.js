@@ -18,6 +18,6 @@ export const A = styled.a`
   }
 
   @media only screen and (max-width: ${({ theme }) => theme.breakpoints.sm}) {
-    font-size: 16px;
+    font-size: 12px;
   }
 `;

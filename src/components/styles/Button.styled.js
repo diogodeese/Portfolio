@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Button = styled.button`
   padding: 0.5rem 1rem;
   color: ${({ theme }) => theme.colors.alto};
-  font-size: 20px;
+  font-size: 18px;
   text-decoration: none;
   border: 1px solid ${({ theme }) => theme.colors.valencia};
   border-radius: 4px;
@@ -27,7 +27,7 @@ export const Button = styled.button`
 export const AButton = styled.a`
   padding: 0.5rem 1rem;
   color: ${({ theme }) => theme.colors.alto};
-  font-size: 20px;
+  font-size: 18px;
   text-decoration: none;
   border: 1px solid ${({ theme }) => theme.colors.valencia};
   border-radius: 4px;

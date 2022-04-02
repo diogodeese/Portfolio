@@ -11,7 +11,7 @@ export const AboutLeftContainer = styled.div`
   overflow: hidden;
 
   @media only screen and (max-width: ${({ theme }) => theme.breakpoints.md}) {
-    min-width: 100%;
+    width: 100%;
     height: 70%;
     justify-content: center;
     padding-inline: 25px;
@@ -33,7 +33,7 @@ export const AboutRightContainer = styled.div`
     width: 100%;
     height: 30%;
     justify-content: center;
-    padding-inline: 20%;
+    padding: 25px;
     float: none;
   }
 `;
