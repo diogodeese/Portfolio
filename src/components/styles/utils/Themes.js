@@ -6,6 +6,7 @@ const theme = {
     grey: "#787575",
     nero: "#1f1f1f",
     nightRider: "#292929",
+    shilo: "#e3acac",
     sundown: "#ffacac",
     valencia: "#d14949",
     veryLightGrey: "#d1cdcd",

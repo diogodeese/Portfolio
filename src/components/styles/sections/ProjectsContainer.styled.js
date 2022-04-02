@@ -47,7 +47,7 @@ export const Project = styled.div`
     font-weight: 600;
     letter-spacing: 0.5px;
     background-color: transparent;
-    color: ${({ theme }) => theme.colors.sundown};
+    color: ${({ theme }) => theme.colors.shilo};
   }
 
   h4 {
@@ -70,7 +70,7 @@ export const Project = styled.div`
   #icons {
     margin-top: 10px;
     font-size: 22px;
-    color: ${({ theme }) => theme.colors.sundown};
+    color: ${({ theme }) => theme.colors.shilo};
     cursor: pointer;
     background-color: transparent;
     transition: transform ease 400ms;
