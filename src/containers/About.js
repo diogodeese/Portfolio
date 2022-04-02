@@ -1,5 +1,5 @@
 import React from "react";
-import profilePicture from "../assets/profile-picture.jfif";
+import profilePicture from "../assets/img/profile-picture.jfif";
 
 // Styled Components
 import { MainContainer } from "../components/styles/MainContainer.styled";
