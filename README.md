@@ -11,5 +11,3 @@
 </p>
 
 ![Demo](https://github.com/diogodeese/Portfolio/blob/master/src/assets/Demo.png)
-
-https://app.netlify.com/sites/diogodeese/deploys
