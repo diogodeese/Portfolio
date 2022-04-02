@@ -5,6 +5,6 @@ export const Image = styled.img`
   max-height: 100%;
   width: 300px;
   height: auto;
-  border: 2px solid #d14949;
+  border: 2px solid ${({ theme }) => theme.colors.valencia};
   border-radius: 10px;
 `;

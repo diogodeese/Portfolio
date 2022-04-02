@@ -4,7 +4,7 @@ export const A = styled.a`
   text-align: center;
   font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
   font-size: 14px;
-  color: #787575;
+  color: ${({ theme }) => theme.colors.grey};
   text-decoration: none;
   cursor: pointer;
 

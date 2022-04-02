@@ -6,13 +6,13 @@ const GlobalStyles = createGlobalStyle`
         padding: 0;
         box-sizing: border-box;
         font-family: "Raleway", sans-serif;
-        background-color: #1f1f1f;
+        background-color: ${({ theme }) => theme.colors.nero};
         overflow-x: hidden;
     }
     
     *::selection {
         color: white;
-        background-color: #d14949;
+        background-color: ${({ theme }) => theme.colors.valencia};
     }
     
     ::-webkit-scrollbar {
@@ -20,16 +20,16 @@ const GlobalStyles = createGlobalStyle`
     }
     
     ::-webkit-scrollbar-track {
-        background-color: #141414;
+        background-color: ${({ theme }) => theme.colors.black};
     }
     
     ::-webkit-scrollbar-thumb {
-        background-color: #ffd6d6;
+        background-color: ${({ theme }) => theme.colors.cosmos};
         border-radius: 25px;
     }
     
     ::-webkit-scrollbar-thumb:hover {
-        background-color: #ffacac;
+        background-color: ${({ theme }) => theme.colors.sundown};
     }
 `;
 

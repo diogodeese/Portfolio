@@ -5,7 +5,7 @@ export const H2 = styled.h2`
   margin-bottom: 30px;
   letter-spacing: 2px;
   ${({ width }) => `max-width: ${width};`}
-  color: #d9c5c5;
+  color: ${({ theme }) => theme.colors.alto};
   font-size: ${({ size }) => size};
 
   @media only screen and (max-width: ${({ theme }) => theme.breakpoints.md}) {

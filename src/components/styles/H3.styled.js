@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const H3 = styled.h3`
   margin-bottom: 20px;
   letter-spacing: 3px;
-  color: #d14949;
+  color: ${({ theme }) => theme.colors.valencia};
   font-size: 18px;
 
   @media only screen and (max-width: ${({ theme }) => theme.breakpoints.md}) {

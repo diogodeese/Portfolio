@@ -6,7 +6,7 @@ export const H1 = styled.h1`
     system-ui, sans-serif;
   font-size: ${({ size }) => size || "46px"};
   font-weight: 600;
-  color: #ffacac;
+  color: ${({ theme }) => theme.colors.sundown};
   cursor: default;
 
   @media only screen and (max-width: ${({ theme }) => theme.breakpoints.md}) {

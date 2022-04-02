@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Button = styled.button`
   padding: 0.5rem 1rem;
-  color: #d9c5c5;
+  color: ${({ theme }) => theme.colors.alto};
   font-size: 20px;
   text-decoration: none;
   border: 1px solid ${({ theme }) => theme.colors.valencia};
@@ -26,7 +26,7 @@ export const Button = styled.button`
 
 export const AButton = styled.a`
   padding: 0.5rem 1rem;
-  color: #d9c5c5;
+  color: ${({ theme }) => theme.colors.alto};
   font-size: 20px;
   text-decoration: none;
   border: 1px solid ${({ theme }) => theme.colors.valencia};
