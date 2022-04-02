@@ -5,7 +5,7 @@ import Hero from "../containers/Hero";
 import Projects from "../containers/Projects";
 import About from "../containers/About";
 import Contact from "../containers/Contact";
-import Footer from "../components/Footer/Footer";
+import Footer from "../containers/Footer";
 
 export default function Home() {
   return (
