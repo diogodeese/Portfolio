@@ -2,9 +2,9 @@ export const projects = [
   {
     showcase: true,
     year: 2022,
-    title: "Drive",
+    title: "Floppy",
     description:
-      "Cloud website, where you can add files to it in your computer, and share them with other users on the platform.",
+      "Floppy is a drive website where you can upload files in order to save space in your computer. You can share them with your friends and download them later.",
     languages: ["Python", "Django"],
     links: [],
   },
