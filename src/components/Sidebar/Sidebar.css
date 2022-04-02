@@ -69,7 +69,7 @@
   background-color: #d9c5c5;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 900px) {
   .RightSidebar {
     display: none;
   }

@@ -1,7 +1,7 @@
 import React from "react";
-import useWindowDimensions from "../WindowDimensions";
+import useWindowDimensions from "../../hooks/useWindowDimensions";
 import { FiGithub, FiExternalLink } from "react-icons/fi";
-import { projects } from "../MyProjects";
+import { projects } from "../../helpers/MyProjects";
 import "./ProjectsArchive.css";
 
 export default function ProjectsArchive() {

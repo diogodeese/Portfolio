@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
-import useWindowDimensions from "../WindowDimensions";
+import useWindowDimensions from "../hooks/useWindowDimensions";
 import { useHistory } from "react-router-dom";
 import { FiFolder, FiGithub, FiExternalLink } from "react-icons/fi";
-import { projects } from "../MyProjects";
-import "./Projects.css";
+import { projects } from "../helpers/MyProjects";
+import "../components/Projects/Projects.css";
 
 export default function Projects() {
   const { height, width } = useWindowDimensions();
