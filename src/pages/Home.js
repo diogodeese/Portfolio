@@ -1,6 +1,5 @@
 import Navbar from "../components/Navbar/Navbar";
-import LeftSidebar from "../components/Sidebar/LeftSidebar";
-import RightSidebar from "../components/Sidebar/RightSidebar";
+import { RightSideBar, LeftSideBar } from "../components/styles/SideBars";
 import Hero from "../containers/Hero";
 import Projects from "../containers/Projects";
 import About from "../containers/About";
@@ -11,8 +10,8 @@ export default function Home() {
   return (
     <div>
       <Navbar />
-      <LeftSidebar />
-      <RightSidebar />
+      <LeftSideBar />
+      <RightSideBar />
       <Hero />
       <About />
       <Projects />

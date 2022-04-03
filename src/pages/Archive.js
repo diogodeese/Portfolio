@@ -1,6 +1,5 @@
 import NavbarArchive from "../components/Navbar/NavbarArchive";
-import LeftSidebar from "../components/Sidebar/LeftSidebar";
-import RightSidebar from "../components/Sidebar/RightSidebar";
+import { RightSideBar, LeftSideBar } from "../components/styles/SideBars";
 import ProjectsArchive from "../components/ProjectsArchive/ProjectsArchive";
 import Footer from "../containers/Footer";
 
@@ -8,8 +7,8 @@ export default function Archive() {
   return (
     <div>
       <NavbarArchive />
-      <LeftSidebar />
-      <RightSidebar />
+      <LeftSideBar />
+      <RightSideBar />
       <ProjectsArchive />
       <Footer />
     </div>
