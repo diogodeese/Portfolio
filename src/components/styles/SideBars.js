@@ -14,14 +14,14 @@ const RightBar = styled.ul`
     width: 1px;
     height: 90px;
     margin: 0px auto;
-    background-color: #d9c5c5;
+    background-color: ${({ theme }) => theme.colors.alto};
   }
 
   li,
   a {
     padding-bottom: 20px;
     padding-top: 5px;
-    color: #d9c5c5;
+    color: ${({ theme }) => theme.colors.alto};
     writing-mode: vertical-rl;
     letter-spacing: 3px;
     font-weight: 600;
@@ -32,7 +32,7 @@ const RightBar = styled.ul`
 
   li a:hover {
     position: relative;
-    color: #ffacac;
+    color: ${({ theme }) => theme.colors.sundown};
     transform: translate(0, -5px);
   }
 
@@ -55,7 +55,7 @@ export function RightSideBar() {
 const LeftBar = styled.ul`
   display: table-row;
   position: fixed;
-  color: #d9c5c5;
+  color: ${({ theme }) => theme.colors.alto};
   bottom: 0;
   left: 50px;
   padding-top: 5px;
@@ -68,7 +68,7 @@ const LeftBar = styled.ul`
 
   li:hover {
     position: relative;
-    color: #ffacac;
+    color: ${({ theme }) => theme.colors.sundown};
     transform: translate(0, -5px);
   }
 
@@ -82,7 +82,7 @@ const LeftBar = styled.ul`
     width: 1px;
     height: 90px;
     margin: 0px auto;
-    background-color: #d9c5c5;
+    background-color: ${({ theme }) => theme.colors.alto};
   }
 `;
 
