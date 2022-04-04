@@ -3,7 +3,6 @@ import styled from "styled-components";
 export const HeroContainer = styled.div`
   display: block;
   margin-right: 15%;
-  margin-bottom: 5%;
   overflow: hidden;
   min-height: 450px;
   -webkit-box-sizing: border-box;

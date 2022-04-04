@@ -1,14 +1,11 @@
 import React from "react";
-import useWindowDimensions from "../../hooks/useWindowDimensions";
 import { FiGithub, FiExternalLink } from "react-icons/fi";
 import { projects } from "../../helpers/MyProjects";
 import "./ProjectsArchive.css";
 
 export default function ProjectsArchive() {
-  const { height } = useWindowDimensions();
-
   return (
-    <div style={{ Height: height, marginBottom: 150 }}>
+    <div style={{ Height: "fit-content", marginBottom: 150 }}>
       <div className="ProjectsArchive-introduction">
         <h1 className="ProjectsArchive-title">Archive</h1>
         <h4 className="ProjectsArchive-description">

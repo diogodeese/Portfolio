@@ -5,7 +5,8 @@ export const MainContainer = styled.div`
   align-items: center;
   justify-content: center;
   margin-inline: 100px;
-  height: ${({ height }) => height};
+  height: ${({ height }) => height || "fit-content"};
+  min-height: fit-content;
   overflow: hidden;
 
   @media only screen and (max-width: ${({ theme }) => theme.breakpoints.md}) {

@@ -17,7 +17,7 @@ export const Li = styled.li`
   font-size: 16px;
   color: ${({ theme }) => theme.colors.grey};
   margin-right: 100px;
-  width: 100px;
+  width: fit-content;
 
   @media only screen and (max-width: ${({ theme }) => theme.breakpoints.sm}) {
     font-size: 12px;

@@ -22,12 +22,10 @@ export default function Projects() {
   const { height, width } = useWindowDimensions();
   const history = useHistory();
   const [projectsNumber, setProjectsNumber] = useState(8);
-  const [adicionalHeigh, setAdicionalHeigh] = useState(100);
 
   useEffect(() => {
     if (width > 1600) {
       setProjectsNumber(8);
-      setAdicionalHeigh(100);
     }
 
     if (width < 1600) {
@@ -40,16 +38,11 @@ export default function Projects() {
 
     if (width < 900) {
       setProjectsNumber(3);
-      setAdicionalHeigh(height);
     }
   }, [width, height]);
 
   return (
-    <MainContainer
-      id="projects"
-      height={height + adicionalHeigh + "px"}
-      display={"block"}
-    >
+    <MainContainer id="projects" display={"block"}>
       <div
         style={{
           display: "flex",
@@ -107,7 +100,13 @@ export default function Projects() {
             })}
         </ProjectsWrapper>
       </ProjectsContainer>
-      <div style={{ display: "flex", justifyContent: "center" }}>
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          marginBottom: "15%",
+        }}
+      >
         <AButton onClick={() => history.push("/archive")}>
           Projects Archive
         </AButton>

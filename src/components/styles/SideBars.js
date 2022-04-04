@@ -37,9 +37,8 @@ const RightBar = styled.ul`
   }
 
   @media only screen and (max-width: ${({ theme }) => theme.breakpoints.md}) {
-    .RightSidebar {
-      display: none;
-    }
+    display: none;
+  }
 `;
 
 export function RightSideBar() {
@@ -83,6 +82,10 @@ const LeftBar = styled.ul`
     height: 90px;
     margin: 0px auto;
     background-color: ${({ theme }) => theme.colors.alto};
+  }
+
+  @media only screen and (max-width: ${({ theme }) => theme.breakpoints.md}) {
+    display: none;
   }
 `;
 
