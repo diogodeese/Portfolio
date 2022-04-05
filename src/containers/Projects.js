@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import { useHistory } from "react-router-dom";
 
 // Utils
 import { projects } from "../helpers/MyProjects";
@@ -20,7 +19,6 @@ import { FiFolder, FiGithub, FiExternalLink } from "react-icons/fi";
 
 export default function Projects() {
   const { height, width } = useWindowDimensions();
-  const history = useHistory();
   const [projectsNumber, setProjectsNumber] = useState(8);
 
   useEffect(() => {
@@ -107,9 +105,7 @@ export default function Projects() {
           marginBottom: "15%",
         }}
       >
-        <AButton onClick={() => history.push("/archive")}>
-          Projects Archive
-        </AButton>
+        <AButton href="/archive">Projects Archive</AButton>
       </div>
     </MainContainer>
   );
