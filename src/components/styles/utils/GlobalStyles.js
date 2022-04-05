@@ -1,6 +1,8 @@
 import { createGlobalStyle } from "styled-components";
 
 const GlobalStyles = createGlobalStyle`
+    @import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300&family=Raleway:wght@200&family=Work+Sans&display=swap');
+
     * {
         margin: 0;
         padding: 0;
