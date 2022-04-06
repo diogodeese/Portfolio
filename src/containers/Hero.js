@@ -1,6 +1,6 @@
 import React from "react";
 import useWindowDimensions from "../hooks/useWindowDimensions";
-import resumePdf from "../assets/other/resume.pdf";
+import Resume from "../assets/other/Resume.pdf";
 
 // Styled Components
 import { MainContainer } from "../components/styles/MainContainer.styled";
@@ -25,7 +25,7 @@ export default function Hero() {
           I'm someone that likes to learn new technologies and work with
           enthusiastic teams.
         </H2>
-        <AButton href={resumePdf} target="blank">
+        <AButton href={Resume} target="blank">
           Check my Resume
         </AButton>
       </HeroContainer>

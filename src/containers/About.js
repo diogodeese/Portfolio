@@ -1,5 +1,5 @@
 import React from "react";
-import profilePicture from "../assets/img/profile-picture.jfif";
+import Portrait from "../assets/img/Portrait.jfif";
 
 // Styled Components
 import { MainContainer } from "../components/styles/MainContainer.styled";
@@ -44,7 +44,7 @@ export default function About() {
         </div>
       </AboutLeftContainer>
       <AboutRightContainer>
-        <Image src={profilePicture} alt="My beautiful face should be here" />
+        <Image src={Portrait} alt="My beautiful face should be here" />
       </AboutRightContainer>
     </MainContainer>
   );
