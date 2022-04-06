@@ -1,6 +1,6 @@
 import React from "react";
 import useWindowDimensions from "../hooks/useWindowDimensions";
-import Resume from "../assets/other/Resume.pdf";
+import Resume from "../assets/other/resume.pdf";
 
 // Styled Components
 import { MainContainer } from "../components/styles/MainContainer.styled";
