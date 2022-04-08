@@ -17,7 +17,6 @@ import { Helmet } from "react-helmet";
 import Loadable from "react-loadable";
 
 import Loader from "./components/styles/Loader.styled";
-import as from "./assets/img/Demo.png";
 
 const LoadableArchive = Loadable({
   loader: () => import("./pages/Archive"),
@@ -39,7 +38,10 @@ function App() {
         <meta name="theme-color" content="#d14949" />
         <meta name="author" content="Diogo Santos" />
         <meta name="description" content="Welcome to my portfolio!" />
-        <meta name="image" content={as} />
+        <meta
+          property="og:image"
+          content="https://ia.media-imdb.com/images/rock.jpg"
+        />
         <link rel="manifest" href="manifest.json" />
         <link
           href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap"
