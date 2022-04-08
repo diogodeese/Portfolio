@@ -22,7 +22,7 @@ export default function ProjectsArchive() {
     <MainContainer display="block" style={{ marginBottom: 100 }}>
       <ArchiveIntroduction>
         <H1>Archive</H1>
-        <H2 size="16px" width="550px">
+        <H2 size="16px" width="400px">
           All of the projects that I made and I feel that they are good enough
           are here!
         </H2>
