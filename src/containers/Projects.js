@@ -15,11 +15,13 @@ import {
 } from "../components/styles/sections/ProjectsContainer.styled";
 import { H1 } from "../components/styles/H1.styled";
 import { AButton } from "../components/styles/Button.styled";
+
 import { FiFolder, FiGithub, FiExternalLink } from "react-icons/fi";
 
 export default function Projects() {
   const { height, width } = useWindowDimensions();
   const [projectsNumber, setProjectsNumber] = useState(8);
+  //const [showAll, setShowAll] = useState(false);
 
   useEffect(() => {
     if (width > 1600) {

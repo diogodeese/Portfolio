@@ -16,11 +16,11 @@ export default function Hero() {
   return (
     <MainContainer id="home" height={height + "px"}>
       <HeroContainer>
-        <H3 color={"#d14949"}>Hi, my name is</H3>
+        <H3 color={"#d14949"}>Hi, my name is</H3>;{" "}
         <H1>
           Diogo Santos.
           <br />I solve problems by coding.
-        </H1>
+        </H1>{" "}
         <H2 size={"20px"} width={"600px"}>
           I'm someone that likes to learn new technologies and work with
           enthusiastic teams.

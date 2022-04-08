@@ -41,6 +41,7 @@ export default class Navbar extends Component {
         }}
       >
         <h1 className="Navbar-title">Diogo Santos</h1>
+
         <div className="Navbar-menu">
           <Link
             activeClass="Active"
