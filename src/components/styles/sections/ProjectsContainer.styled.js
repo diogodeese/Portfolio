@@ -15,6 +15,7 @@ export const ProjectsWrapper = styled.div`
   grid-template-columns: repeat(4, auto);
   grid-gap: 10px;
   padding: 10px;
+  overflow: hidden;
 
   @media only screen and (max-width: ${({ theme }) => theme.breakpoints.xl}) {
     grid-template-columns: repeat(3, auto);

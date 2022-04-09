@@ -14,7 +14,12 @@ import { Image } from "../components/styles/Image";
 
 export default function About() {
   return (
-    <MainContainer id="about" height={"fit-content"} mediaDisplay={"block"}>
+    <MainContainer
+      id="About"
+      data-Aos="fade-up"
+      height={"fit-content"}
+      mediaDisplay={"block"}
+    >
       <AboutLeftContainer>
         <div style={{ display: "block" }}>
           <H1 size={"32px"}>About Me</H1>

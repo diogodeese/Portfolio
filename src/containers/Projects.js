@@ -21,28 +21,16 @@ import { FiFolder, FiGithub, FiExternalLink } from "react-icons/fi";
 export default function Projects() {
   const { height, width } = useWindowDimensions();
   const [projectsNumber, setProjectsNumber] = useState(8);
-  //const [showAll, setShowAll] = useState(false);
 
   useEffect(() => {
-    if (width > 1600) {
-      setProjectsNumber(8);
-    }
-
-    if (width < 1600) {
-      setProjectsNumber(6);
-    }
-
-    if (width < 1200) {
-      setProjectsNumber(4);
-    }
-
-    if (width < 900) {
-      setProjectsNumber(3);
-    }
+    if (width > 1600) setProjectsNumber(8);
+    if (width < 1600) setProjectsNumber(6);
+    if (width < 1200) setProjectsNumber(4);
+    if (width < 900) setProjectsNumber(3);
   }, [width, height]);
 
   return (
-    <MainContainer id="projects" display={"block"}>
+    <MainContainer data-Aos="fade-up" id="Projects" display={"block"}>
       <div
         style={{
           display: "flex",
@@ -62,7 +50,13 @@ export default function Projects() {
             )
             .map((project, key) => {
               return (
-                <Project key={key}>
+                <Project
+                  key={key}
+                  data-Aos="fade-up"
+                  style={{
+                    transitionDelay: `${key * 100}ms`,
+                  }}
+                >
                   <FiFolder id="main-icon" />
                   <ProjectLinks>
                     {project.links

@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import { Link } from "react-scroll";
 import "./Navbar.css";
 
+const links = ["Home", "About", "Projects", "Contact"];
+
 export default class Navbar extends Component {
   state = {
     auth: false,
@@ -43,50 +45,24 @@ export default class Navbar extends Component {
         <h1 className="Navbar-title">Diogo Santos</h1>
 
         <div className="Navbar-menu">
-          <Link
-            activeClass="Active"
-            to="home"
-            spy={true}
-            smooth={true}
-            offset={0}
-            duration={1000}
-            className="Navbar-links"
-          >
-            Home
-          </Link>
-          <Link
-            activeClass="Active"
-            to="about"
-            spy={true}
-            smooth={true}
-            offset={0}
-            duration={1000}
-            className="Navbar-links"
-          >
-            About
-          </Link>
-          <Link
-            activeClass="Active"
-            to="projects"
-            spy={true}
-            smooth={true}
-            offset={0}
-            duration={1000}
-            className="Navbar-links"
-          >
-            Projects
-          </Link>
-          <Link
-            activeClass="Active"
-            to="contact"
-            spy={true}
-            smooth={true}
-            offset={0}
-            duration={1000}
-            className="Navbar-links"
-          >
-            Contact
-          </Link>
+          {links.map((link, key) => (
+            <Link
+              data-Aos="fade-down"
+              key={key}
+              activeClass="Active"
+              to={link}
+              spy={true}
+              smooth={true}
+              offset={0}
+              duration={1000}
+              className="Navbar-links"
+              style={{
+                transitionDelay: `${key * 100}ms`,
+              }}
+            >
+              {link}
+            </Link>
+          ))}
         </div>
       </nav>
     );

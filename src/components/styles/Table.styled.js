@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const Table = styled.table`
   width: 70%;
   margin-bottom: 100;
+  overflow: hidden;
 
   &,
   th {
