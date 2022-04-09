@@ -19,7 +19,7 @@ const RightBar = styled.ul`
 
   li,
   a {
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     padding-top: 5px;
     color: ${({ theme }) => theme.colors.alto};
     writing-mode: vertical-rl;
