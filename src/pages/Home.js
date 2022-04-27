@@ -1,5 +1,8 @@
-import Navbar from "../components/Navbar/Navbar";
-import { RightSideBar, LeftSideBar } from "../components/styles/SideBars";
+import { Navbar } from "../components/styles/Navbar.styled";
+import {
+  RightSideBar,
+  LeftSideBar,
+} from "../components/styles/SideBars.styled";
 import Hero from "../containers/Hero";
 import Projects from "../containers/Projects";
 import About from "../containers/About";

@@ -30,7 +30,7 @@ export default function Projects() {
   }, [width, height]);
 
   return (
-    <MainContainer data-Aos="fade-up" id="Projects" display={"block"}>
+    <MainContainer data-Aos="fade-up" id="projects" display={"block"}>
       <div
         style={{
           display: "flex",

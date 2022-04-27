@@ -24,7 +24,7 @@ export default function Hero() {
     <MainContainer
       data-Aos="fade-down"
       data-aos-easing="ease-out-quart"
-      id="Home"
+      id="home"
       height={height + "px"}
     >
       <HeroContainer>

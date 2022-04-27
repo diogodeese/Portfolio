@@ -15,10 +15,11 @@ import { Image } from "../components/styles/Image";
 export default function About() {
   return (
     <MainContainer
-      id="About"
+      id="about"
       data-Aos="fade-up"
       height={"fit-content"}
       mediaDisplay={"block"}
+      style={{ padding: "100px" }}
     >
       <AboutLeftContainer>
         <div style={{ display: "block" }}>
