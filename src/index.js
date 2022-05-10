@@ -15,7 +15,6 @@ import Home from "./pages/Home";
 // Utils
 import { Helmet } from "react-helmet";
 import Loadable from "react-loadable";
-
 import Loader from "./components/styles/Loader.styled";
 
 const LoadableArchive = Loadable({
