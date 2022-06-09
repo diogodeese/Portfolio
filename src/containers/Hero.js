@@ -28,7 +28,9 @@ export default function Hero() {
       height={height + "px"}
     >
       <HeroContainer>
-        <H3 color={"#d14949"}>Hi, my name is</H3>
+        <H3 color={"#d14949"} style={{ marginBottom: "20px" }}>
+          Hi, my name is
+        </H3>
         <H1>
           Diogo Santos.
           <br />I solve problems by coding.
