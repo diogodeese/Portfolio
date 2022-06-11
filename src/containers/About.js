@@ -50,7 +50,7 @@ export default function About() {
         </div>
       </AboutLeftContainer>
       <AboutRightContainer>
-        <Image src={Portrait} alt="My beautiful face should be here" />
+        <Image src={Portrait} alt="Portrait" />
       </AboutRightContainer>
     </MainContainer>
   );
