@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import useWindowDimensions from "../hooks/useWindowDimensions";
 import Resume from "../assets/other/resume.pdf";
 
@@ -10,23 +10,11 @@ import { H2 } from "../components/styles/H2.styled";
 import { H3 } from "../components/styles/H3.styled";
 import { AButton } from "../components/styles/Button.styled";
 
-import Aos from "aos";
-import "aos/dist/aos.css";
-
 export default function Hero() {
   const { height } = useWindowDimensions();
 
-  useEffect(() => {
-    Aos.init({ duration: 1000 });
-  }, []);
-
   return (
-    <MainContainer
-      data-Aos="fade-down"
-      data-aos-easing="ease-out-quart"
-      id="home"
-      height={height + "px"}
-    >
+    <MainContainer id="home" height={height + "px"}>
       <HeroContainer>
         <H3 color={"#d14949"} style={{ marginBottom: "20px" }}>
           Hi, my name is

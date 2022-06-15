@@ -30,7 +30,7 @@ export default function Projects() {
   }, [width, height]);
 
   return (
-    <MainContainer data-Aos="fade-up" id="projects" display={"block"}>
+    <MainContainer id="projects" display={"block"}>
       <div
         style={{
           display: "flex",
@@ -52,7 +52,6 @@ export default function Projects() {
               return (
                 <Project
                   key={key}
-                  data-Aos="fade-up"
                   style={{
                     transitionDelay: `${key * 100}ms`,
                   }}

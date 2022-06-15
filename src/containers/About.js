@@ -16,7 +16,6 @@ export default function About() {
   return (
     <MainContainer
       id="about"
-      data-Aos="fade-up"
       height={"fit-content"}
       mediaDisplay={"block"}
       style={{ padding: "100px" }}

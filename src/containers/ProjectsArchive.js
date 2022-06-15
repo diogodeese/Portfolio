@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 
 // Utils
 import { projects } from "../helpers/MyProjects";
@@ -16,19 +16,12 @@ import { Table } from "../components/styles/Table.styled";
 
 import { FiGithub, FiExternalLink } from "react-icons/fi";
 
-import Aos from "aos";
-import "aos/dist/aos.css";
-
 export default function ProjectsArchive() {
   const { width } = useWindowDimensions();
 
-  useEffect(() => {
-    Aos.init({ duration: 750 });
-  }, []);
-
   return (
     <MainContainer display="block" style={{ marginBottom: 100 }}>
-      <ArchiveIntroduction data-Aos="fade-down">
+      <ArchiveIntroduction>
         <H1>Archive</H1>
         <H2 size="16px" width="400px">
           All of the projects that I made and I feel that they are good enough
@@ -54,7 +47,6 @@ export default function ProjectsArchive() {
                 return (
                   <tr
                     key={key}
-                    data-Aos="fade-up"
                     style={{
                       color: "#d1cdcd",
                       height: 50,
