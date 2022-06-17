@@ -17,6 +17,14 @@ const Nav = styled.nav`
   z-index: 1;
   background-color: #1f1f1f;
   box-shadow: 0 0 6px #131313;
+
+  @media only screen and (max-width: ${({ theme }) => theme.breakpoints.md}) {
+    h3 {
+      width: 100%;
+      text-align: center;
+      font-size: 26px;
+    }
+  }
 `;
 
 const MenuLinks = styled.div`
@@ -47,6 +55,12 @@ const MenuLinks = styled.div`
     color: #fff;
     border-radius: 4px;
     transition: all 0.4s ease-out;
+  }
+
+  @media only screen and (max-width: ${({ theme }) => theme.breakpoints.md}) {
+    & {
+      display: none;
+    }
   }
 `;
 

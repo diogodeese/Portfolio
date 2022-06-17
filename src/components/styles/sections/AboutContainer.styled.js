@@ -14,7 +14,7 @@ export const AboutLeftContainer = styled.div`
     width: 100%;
     height: 70%;
     justify-content: center;
-    padding-inline: 25px;
+    padding: 25px;
     float: none;
   }
 `;
