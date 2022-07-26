@@ -2,15 +2,6 @@ export const projects = [
   {
     showcase: true,
     year: 2022,
-    title: "Floppy",
-    description:
-      "Floppy is a drive website where you can upload files in order to save space in your computer. You can share them with your friends and download them later.",
-    languages: ["Python", "Django"],
-    links: [],
-  },
-  {
-    showcase: true,
-    year: 2022,
     title: "Pokedex",
     description:
       "Pokedex simulator where you can search for every generation V pokemon using a public pokemon API.",
@@ -38,6 +29,15 @@ export const projects = [
         link: "https://github.com/diogodeese/IgniteLab",
       },
     ],
+  },
+  {
+    showcase: true,
+    year: 2022,
+    title: "Floppy",
+    description:
+      "Floppy is a drive website where you can upload files in order to save space in your computer. You can share them with your friends and download them later.",
+    languages: ["Python", "Django"],
+    links: [],
   },
   {
     showcase: true,
