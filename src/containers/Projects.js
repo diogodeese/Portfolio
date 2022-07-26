@@ -43,19 +43,14 @@ export default function Projects() {
       <ProjectsContainer>
         <ProjectsWrapper>
           {projects
-            .slice(0, projectsNumber)
             .filter((project) => project.showcase)
+            .slice(0, projectsNumber)
             .sort((projectA, projectB) =>
               projectA.year > projectB.year ? -1 : 1
             )
             .map((project, key) => {
               return (
-                <Project
-                  key={key}
-                  style={{
-                    transitionDelay: `${key * 100}ms`,
-                  }}
-                >
+                <Project key={key}>
                   <FiFolder id="main-icon" />
                   <ProjectLinks>
                     {project.links
