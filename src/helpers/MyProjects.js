@@ -10,6 +10,37 @@ export const projects = [
   },
   {
     showcase: true,
+    year: 2022,
+    title: "Pokedex",
+    description:
+      "Pokedex simulator where you can search for every generation V pokemon using a public pokemon API.",
+    languages: ["React", "TypeScript", "Tailwind"],
+    links: [
+      {
+        name: "GitHub",
+        link: "https://github.com/diogodeese/pokedex",
+      },
+      {
+        name: "External Link",
+        link: "https://pokedex.diogodeese.com",
+      },
+    ],
+  },
+  {
+    showcase: false,
+    year: 2022,
+    title: "Ignite Lab",
+    description: "Built during the Ignite Lab event organized by @Rocketseat.",
+    languages: ["React", "TypeScript", "GraphQL", "Tailwind"],
+    links: [
+      {
+        name: "GitHub",
+        link: "https://github.com/diogodeese/IgniteLab",
+      },
+    ],
+  },
+  {
+    showcase: true,
     year: 2021,
     title: "Lisbon Zoo App",
     description:
@@ -25,6 +56,10 @@ export const projects = [
       "Discord bot to automate actions on Discord, like play music, decide between options and search for google images on a Discord server chat.",
     languages: ["JavaScript", "Discord.js", "Node.js"],
     links: [
+      {
+        name: "GitHub",
+        link: "https://github.com/diogodeese/Evee",
+      },
       {
         name: "External Link",
         link: "https://discord.com/oauth2/authorize?client_id=775530325572976640&permissions=8&scope=applications.commands%20bot",
@@ -56,6 +91,10 @@ export const projects = [
       {
         name: "GitHub",
         link: "https://github.com/diogodeese/Space-Knowledge",
+      },
+      {
+        name: "External Link",
+        link: "https://spaceknowledge.diogodeese.com",
       },
     ],
   },
