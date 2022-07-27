@@ -33,7 +33,7 @@ export default function ProjectsArchive() {
           <thead>
             <tr>
               <th>Year</th>
-              <th>Title</th>
+              <th>Project</th>
               {width > 800 && <th>Built With</th>}
               <th>Links</th>
             </tr>

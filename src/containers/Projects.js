@@ -74,7 +74,9 @@ export default function Projects() {
                         </li>
                       ))}
                   </ProjectLinks>
-                  <h2>{project.title}</h2>
+                  <h2 style={{ fontFamily: "Rubik", fontWeight: 400 }}>
+                    {project.title}
+                  </h2>
                   <h4>{project.description}</h4>
                   <ProjectFooter>
                     <ul>

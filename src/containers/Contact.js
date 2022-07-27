@@ -13,9 +13,8 @@ export default function Contact() {
       <ContactContainer>
         <H1>Get In Touch</H1>
         <H4>
-          Currently looking for a job and open to develop interesting projects,
-          if you have something in mind that you would like to share with me
-          contact me!
+          I am open to develop interesting projects, if you have something in
+          mind that you would like to share, contact me!
         </H4>
         <AButton href="mailto:diogodeese@gmail.com">Say Hello</AButton>
       </ContactContainer>

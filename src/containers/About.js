@@ -39,6 +39,7 @@ export default function About() {
             <Ul>
               <Li>Django</Li>
               <Li>Python</Li>
+              <Li>TypeScript</Li>
             </Ul>
           </div>
         </div>

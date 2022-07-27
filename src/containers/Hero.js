@@ -24,7 +24,7 @@ export default function Hero() {
           <br />I solve problems by coding.
         </H1>
         <H2 size={"20px"} width={"600px"}>
-          I'm someone that likes to learn new technologies and work with
+          I'm a person that likes to learn new technologies and work with
           enthusiastic teams.
         </H2>
         <AButton href={Resume} target="blank">
