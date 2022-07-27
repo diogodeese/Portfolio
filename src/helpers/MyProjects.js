@@ -36,7 +36,7 @@ export const projects = [
     title: "Floppy",
     description:
       "Floppy is a drive website where you can upload files in order to save space in your computer. You can share them with your friends and download them later.",
-    languages: ["Python", "Django"],
+    languages: ["Django", "Python"],
     links: [],
   },
   {
@@ -45,7 +45,7 @@ export const projects = [
     title: "Lisbon Zoo App",
     description:
       "Lisbon Zoo map that helps you to know wich animals you did see, you just need to scan their QR Code and they will show up different on the map.",
-    languages: ["JavaScript", "React Native"],
+    languages: ["React Native", "JavaScript"],
     links: [],
   },
   {
@@ -54,7 +54,7 @@ export const projects = [
     title: "Evee Discord Bot",
     description:
       "Discord bot to automate actions on Discord, like play music, decide between options and search for google images on a Discord server chat.",
-    languages: ["JavaScript", "Discord.js", "Node.js"],
+    languages: ["Node.js", "JavaScript", "MongoDB"],
     links: [
       {
         name: "GitHub",
@@ -72,7 +72,7 @@ export const projects = [
     title: "Pathfinding Algorithms",
     description:
       "Visualizer of the pathfinding algorithms such as Dijkstra and A*.",
-    languages: ["JavaScript", "React"],
+    languages: ["React", "JavaScript"],
     links: [
       {
         name: "GitHub",
@@ -86,7 +86,7 @@ export const projects = [
     title: "Space Knowledge",
     description:
       "Built with Nasa Apod (Astronomy Picture of the Day) API. First experience with API's, decided to use this one because I'm curious about the space.",
-    languages: ["JavaScript", "React"],
+    languages: ["React", "JavaScript"],
     links: [
       {
         name: "GitHub",
@@ -104,7 +104,7 @@ export const projects = [
     title: "Portfolio",
     description:
       "You are looking at it right now. Inspired by other portfolios I decided to create my own.",
-    languages: ["JavaScript", "React"],
+    languages: ["React", "JavaScript"],
     links: [
       {
         name: "GitHub",
@@ -122,7 +122,7 @@ export const projects = [
     title: "ScanIt",
     description:
       "Cloud website, where you can add files to it in your computer, and download them with any mobile device by scanning a QR Code.",
-    languages: ["HTML", "JavaScript", "PHP", "MySQL"],
+    languages: ["JavaScript", "PHP", "MySQL"],
     links: [
       {
         name: "GitHub",
