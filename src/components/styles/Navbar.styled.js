@@ -40,21 +40,12 @@ const MenuLinks = styled.div`
     color: #d1cdcd;
     font-size: 1.2rem;
     font-weight: 500;
-    border: 1px solid transparent;
   }
 
   .nav-link:hover {
-    border: 1px solid #d14949;
-    border-radius: 5px;
+    color: #ffacac;
     transition: all 0.4s ease-out;
     cursor: pointer;
-  }
-
-  .active {
-    background-color: #d14949;
-    color: #fff;
-    border-radius: 4px;
-    transition: all 0.4s ease-out;
   }
 
   @media only screen and (max-width: ${({ theme }) => theme.breakpoints.md}) {
@@ -73,7 +64,6 @@ function Links() {
         <Link
           key={key}
           className="nav-link"
-          activeClass="active"
           to={link.toLowerCase()}
           spy={true}
           smooth={true}
