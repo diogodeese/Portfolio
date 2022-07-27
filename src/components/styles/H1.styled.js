@@ -2,10 +2,9 @@ import styled from "styled-components";
 
 export const H1 = styled.h1`
   justify-self: start;
-  font-family: "Calibre", "Inter", "San Francisco", "SF Pro Text", -apple-system,
-    system-ui, sans-serif;
+  font-family: "Rubik", sans-serif;
   font-size: ${({ size }) => size || "46px"};
-  font-weight: 600;
+  font-weight: 500;
   color: ${({ theme }) => theme.colors.sundown};
   cursor: default;
 
