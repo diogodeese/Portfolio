@@ -59,7 +59,7 @@ export default function ProjectsArchive() {
                       <td
                         style={{
                           fontFamily: "monospace",
-                          fontSize: 16,
+                          fontSize: 14,
                           color: "#787575",
                         }}
                       >
