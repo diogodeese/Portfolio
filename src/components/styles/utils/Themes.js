@@ -16,7 +16,7 @@ const theme = {
     lg: "1200px",
     md: "900px",
     sm: "600px",
-    mobile: "320px",
+    mobile: "360px",
   },
 };
 
