@@ -24,6 +24,8 @@ const Nav = styled.nav`
       text-align: center;
       font-size: 26px;
     }
+
+    display: none;
   }
 `;
 
@@ -38,20 +40,15 @@ const MenuLinks = styled.div`
   .nav-link {
     padding: 0.5rem 1rem;
     color: #d1cdcd;
+    font-family: "Rubik", sans-serif;
     font-size: 1.2rem;
-    font-weight: 500;
+    font-weight: 300;
   }
 
   .nav-link:hover {
     color: #ffacac;
-    transition: all 0.4s ease-out;
+    transition: all 0.2s ease-out;
     cursor: pointer;
-  }
-
-  @media only screen and (max-width: ${({ theme }) => theme.breakpoints.md}) {
-    & {
-      display: none;
-    }
   }
 `;
 
@@ -109,7 +106,10 @@ export function Navbar() {
         transition: "transform 300ms linear",
       }}
     >
-      <H3 size="28px" style={{ width: "250px" }}>
+      <H3
+        size="28px"
+        style={{ width: "250px", fontFamily: "Rubik", fontWeight: 400 }}
+      >
         Diogo Santos
       </H3>
       <Links />
@@ -120,7 +120,10 @@ export function Navbar() {
 export function NavbarArchive() {
   return (
     <Nav>
-      <H3 size="28px" style={{ width: "250px" }}>
+      <H3
+        size="28px"
+        style={{ width: "250px", fontFamily: "Rubik", fontWeight: 400 }}
+      >
         Diogo Santos
       </H3>
       <MenuLinks>

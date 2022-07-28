@@ -1,5 +1,6 @@
 import React from "react";
 import { FiGithub, FiLinkedin, FiCodepen } from "react-icons/fi";
+import { FaStackOverflow } from "react-icons/fa";
 import styled from "styled-components";
 
 const RightBar = styled.ul`
@@ -104,6 +105,15 @@ export function LeftSideBar() {
           id="icons"
           alt="Codepen"
           onClick={() => window.open("https://codepen.io/diogodeese/")}
+        />
+      </li>
+      <li>
+        <FaStackOverflow
+          id="icons"
+          alt="StackOverflow"
+          onClick={() =>
+            window.open("https://stackoverflow.com/users/15386147")
+          }
         />
       </li>
       <li>
