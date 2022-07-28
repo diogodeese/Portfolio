@@ -5,6 +5,9 @@ export const Button = styled.button`
   color: ${({ theme }) => theme.colors.alto};
   font-size: 18px;
   text-decoration: none;
+  letter-spacing: 1px;
+  font-family: "Rubik", sans-serif;
+  font-weight: 300;
   border: 1px solid ${({ theme }) => theme.colors.valencia};
   border-radius: 4px;
 
@@ -29,6 +32,9 @@ export const AButton = styled.a`
   color: ${({ theme }) => theme.colors.alto};
   font-size: 18px;
   text-decoration: none;
+  letter-spacing: 1px;
+  font-family: "Rubik", sans-serif;
+  font-weight: 300;
   border: 1px solid ${({ theme }) => theme.colors.valencia};
   border-radius: 4px;
 
