@@ -1,6 +1,6 @@
 import React from "react";
 import { FiGithub, FiLinkedin, FiCodepen } from "react-icons/fi";
-import { FaStackOverflow } from "react-icons/fa";
+import { FaStackOverflow, FaMedium } from "react-icons/fa";
 import styled from "styled-components";
 
 const RightBar = styled.ul`
@@ -114,6 +114,13 @@ export function LeftSideBar() {
           onClick={() =>
             window.open("https://stackoverflow.com/users/15386147")
           }
+        />
+      </li>
+      <li>
+        <FaMedium
+          id="icons"
+          alt="Medium"
+          onClick={() => window.open("https://medium.com/@diogodeese")}
         />
       </li>
       <li>
