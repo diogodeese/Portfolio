@@ -6,7 +6,6 @@ export const H1 = styled.h1`
   font-size: ${({ size }) => size || "46px"};
   font-weight: 500;
   color: ${({ theme }) => theme.colors.sundown};
-  cursor: default;
 
   @media only screen and (max-width: ${({ theme }) => theme.breakpoints.md}) {
     font-size: 6.5vw;
