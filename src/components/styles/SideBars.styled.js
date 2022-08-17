@@ -117,13 +117,6 @@ export function LeftSideBar() {
         />
       </li>
       <li>
-        <FaMedium
-          id="icons"
-          alt="Medium"
-          onClick={() => window.open("https://medium.com/@diogodeese")}
-        />
-      </li>
-      <li>
         <FiLinkedin
           id="icons"
           alt="Linkedin"
