@@ -123,11 +123,6 @@ export const projects = [
     description:
       "Cloud website, where you can add files to it in your computer, and download them with any mobile device by scanning a QR Code.",
     languages: ["JavaScript", "PHP", "MySQL"],
-    links: [
-      {
-        name: "GitHub",
-        link: "https://github.com/diogodeese/ScanIt",
-      },
-    ],
+    links: [],
   },
 ];
