@@ -9,13 +9,16 @@ import GlobalStyles from "./components/styles/utils/GlobalStyles";
 import { ThemeProvider } from "styled-components";
 import theme from "./components/styles/utils/Themes";
 
-// Pages
-import Home from "./pages/Home";
-
 // Utils
 import { Helmet } from "react-helmet";
 import Loadable from "react-loadable";
 import Loader from "./components/styles/Loader.styled";
+
+// Pages
+const LoadableHome = Loadable({
+  loader: () => import("./pages/Home"),
+  loading: () => <Loader></Loader>,
+});
 
 const LoadableArchive = Loadable({
   loader: () => import("./pages/Archive"),
@@ -46,7 +49,7 @@ function App() {
       </Helmet>
       <GlobalStyles />
       <Switch>
-        <Route exact path="/" component={Home} />
+        <Route exact path="/" component={LoadableHome} />
         <Route exact path="/archive" component={LoadableArchive} />
         <Route path="*" component={LoadableNotFoundPage} />
       </Switch>
