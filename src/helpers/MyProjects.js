@@ -2,6 +2,24 @@ export const projects = [
   {
     showcase: true,
     year: 2022,
+    title: "Key Killer",
+    description:
+      "Keyboard typing game.",
+    languages: ["React", "TypeScript", "Tailwind"],
+    links: [
+      {
+        name: "GitHub",
+        link: "https://github.com/diogodeese/Key-Killer",
+      },
+      {
+        name: "External Link",
+        link: "https://keykiller.diogodeese.com",
+      },
+    ],
+  },
+  {
+    showcase: true,
+    year: 2022,
     title: "Pokedex",
     description:
       "Pokedex simulator where you can search for every generation V pokemon using a public pokemon API.",
@@ -44,7 +62,7 @@ export const projects = [
     year: 2021,
     title: "Lisbon Zoo App",
     description:
-      "Lisbon Zoo map that helps you to know wich animals you did see, you just need to scan their QR Code and they will show up different on the map.",
+      "Lisbon Zoo map that helps you to know which animals you did see, you just need to scan their QR Code and they will show up different on the map.",
     languages: ["React Native", "JavaScript"],
     links: [],
   },
@@ -53,7 +71,7 @@ export const projects = [
     year: 2021,
     title: "Evee Discord Bot",
     description:
-      "Discord bot to automate actions on Discord, like play music, decide between options and search for google images on a Discord server chat.",
+      "Evee is a discord bot that makes your life easier.",
     languages: ["Node.js", "JavaScript", "MongoDB"],
     links: [
       {
@@ -71,7 +89,7 @@ export const projects = [
     year: 2021,
     title: "Pathfinding Algorithms",
     description:
-      "Visualizer of the pathfinding algorithms such as Dijkstra and A*.",
+      "Visualizer of the pathfinding algorithms.",
     languages: ["React", "JavaScript"],
     links: [
       {
@@ -85,7 +103,7 @@ export const projects = [
     year: 2021,
     title: "Space Knowledge",
     description:
-      "Built with Nasa Apod (Astronomy Picture of the Day) API. First experience with API's, decided to use this one because I'm curious about the space.",
+      "Built with Nasa Astronomy Picture of the Day API. First experience with API's, decided to use this one because I'm curious about the space.",
     languages: ["React", "JavaScript"],
     links: [
       {
@@ -117,7 +135,7 @@ export const projects = [
     ],
   },
   {
-    showcase: true,
+    showcase: false,
     year: 2020,
     title: "ScanIt",
     description:
