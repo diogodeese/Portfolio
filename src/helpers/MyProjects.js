@@ -1,5 +1,19 @@
 export const projects = [
   {
+    showcase: false,
+    year: 2022,
+    title: "Naruto Content",
+    description:
+      "Collection of Naruto-related content such as clan logos and eyes from different anime characters.",
+    languages: ["CodePen", "CSS", "HTML"],
+    links: [
+      {
+        name: "External Link",
+        link: "https://codepen.io/collection/LPyQBQ?cursor=eyJjb2xsZWN0aW9uX2lkIjoiTFB5UUJRIiwiY29sbGVjdGlvbl90b2tlbiI6bnVsbCwibGltaXQiOjQsIm1heF9pdGVtcyI6MTQsIm9mZnNldCI6MCwicGFnZSI6MSwic29ydF9ieSI6InBvc2l0aW9uIiwic29ydF9vcmRlciI6IkFzYyJ9",
+      },
+    ],
+  },
+  {
     showcase: true,
     year: 2022,
     title: "Key Killer",
