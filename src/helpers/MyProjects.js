@@ -2,9 +2,23 @@ export const projects = [
   {
     showcase: false,
     year: 2022,
+    title: "Next Level Week eSports",
+    description:
+      "Built during the Next Level Week event organized by @Rocketseat.",
+    languages: ["React", "React Native", "Node.js", "TypeScript", "Prisma", "Tailwind"],
+    links: [
+      {
+        name: "GitHub",
+        link: "https://github.com/diogodeese/NLW-eSports",
+      },
+    ],
+  },
+  {
+    showcase: false,
+    year: 2022,
     title: "Naruto Content",
     description:
-      "Collection of Naruto-related content such as clan logos and eyes from different anime characters.",
+      "Collection of Naruto related content such as clan logos and eyes from different anime characters.",
     languages: ["CodePen", "CSS", "HTML"],
     links: [
       {
