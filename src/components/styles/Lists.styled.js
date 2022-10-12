@@ -19,12 +19,6 @@ export const Li = styled.li`
   margin-right: 100px;
   width: fit-content;
 
-  span {
-    color: ${({ theme }) => theme.colors.valencia};
-    font-size: 12px;
-    line-height: 12px;
-  }
-
   @media only screen and (max-width: ${({ theme }) => theme.breakpoints.sm}) {
     font-size: 12px;
   }
