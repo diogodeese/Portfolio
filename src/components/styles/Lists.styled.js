@@ -24,7 +24,7 @@ export const Li = styled.li`
   &:before {
     content: '▹';
     position: absolute;
-    left: 0;
+    left: -20px;
     color: ${({ theme }) => theme.colors.valencia};
     font-size: 12px;
     line-height: 12px;
