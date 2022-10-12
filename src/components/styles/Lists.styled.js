@@ -19,11 +19,8 @@ export const Li = styled.li`
   margin-right: 100px;
   width: fit-content;
 
-  &:before {
-    content: '▹';
-    position: absolute;
-    left: 0;
-    color: ${({theme}) => theme.colors.valencia};
+  span {
+    color: ${({ theme }) => theme.colors.valencia};
     font-size: 12px;
     line-height: 12px;
   }

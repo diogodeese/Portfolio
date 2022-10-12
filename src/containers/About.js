@@ -32,14 +32,14 @@ export default function About() {
           </H4>
           <div style={{ display: "flex" }}>
             <Ul>
-              <Li>React</Li>
-              <Li>Node.js</Li>
-              <Li>JavaScript</Li>
+              <Li><span>▹</span> React</Li>
+              <Li><span>▹</span> Node.js</Li>
+              <Li><span>▹</span> JavaScript</Li>
             </Ul>
             <Ul>
-              <Li>Django</Li>
-              <Li>Python</Li>
-              <Li>TypeScript</Li>
+              <Li><span>▹</span> Django</Li>
+              <Li><span>▹</span> Python</Li>
+              <Li><span>▹</span> TypeScript</Li>
             </Ul>
           </div>
         </div>
