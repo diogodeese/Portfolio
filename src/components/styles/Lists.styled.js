@@ -12,6 +12,7 @@ export const Ul = styled.ul`
 `;
 
 export const Li = styled.li`
+  position: relative
   margin-bottom: 5px;
   font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
   font-size: 16px;
@@ -19,7 +20,10 @@ export const Li = styled.li`
   margin-right: 100px;
   width: fit-content;
 
-  span {
+  &:before {
+    content: '▹';
+    position: absolute;
+    left: 0;
     color: ${({ theme }) => theme.colors.valencia};
     font-size: 12px;
     line-height: 12px;
