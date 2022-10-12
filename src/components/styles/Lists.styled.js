@@ -17,6 +17,7 @@ export const Li = styled.li`
   font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
   font-size: 16px;
   color: ${({ theme }) => theme.colors.grey};
+  margin-left: 20px;
   margin-right: 100px;
   width: fit-content;
 
