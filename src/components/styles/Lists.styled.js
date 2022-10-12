@@ -20,9 +20,6 @@ export const Li = styled.li`
   width: fit-content;
 
   span {
-    content: '▹';
-    position: absolute;
-    left: 0;
     color: ${({ theme }) => theme.colors.valencia};
     font-size: 12px;
     line-height: 12px;
