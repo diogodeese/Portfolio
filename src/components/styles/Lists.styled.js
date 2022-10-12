@@ -12,7 +12,7 @@ export const Ul = styled.ul`
 `;
 
 export const Li = styled.li`
-  position: relative
+  position: relative;
   margin-bottom: 5px;
   font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
   font-size: 16px;
