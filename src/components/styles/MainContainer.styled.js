@@ -12,4 +12,8 @@ export const MainContainer = styled.div`
     margin-inline: 0;
     ${({ mediaDisplay }) => `display: ${mediaDisplay};`}
   }
+
+  @media only screen and (max-width: ${({ theme }) => theme.breakpoints.md}) {
+    heigth: fit-content;
+  }
 `;

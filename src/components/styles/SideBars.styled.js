@@ -1,6 +1,6 @@
 import React from "react";
 import { FiGithub, FiLinkedin, FiCodepen } from "react-icons/fi";
-import { FaStackOverflow, FaMedium } from "react-icons/fa";
+import { FaStackOverflow } from "react-icons/fa";
 import styled from "styled-components";
 
 const RightBar = styled.ul`
@@ -37,7 +37,7 @@ const RightBar = styled.ul`
     transform: translate(0, -5px);
   }
 
-  @media only screen and (max-width: ${({ theme }) => theme.breakpoints.md}) {
+  @media only screen and (max-width: ${({ theme }) => theme.breakpoints.lg}) {
     display: none;
   }
 `;
@@ -85,7 +85,7 @@ const LeftBar = styled.ul`
     background-color: ${({ theme }) => theme.colors.alto};
   }
 
-  @media only screen and (max-width: ${({ theme }) => theme.breakpoints.md}) {
+  @media only screen and (max-width: ${({ theme }) => theme.breakpoints.lg}) {
     display: none;
   }
 `;

@@ -10,6 +10,10 @@ export const AboutLeftContainer = styled.div`
   padding: 25px;
   overflow: hidden;
 
+  @media only screen and (max-width: ${({ theme }) => theme.breakpoints.lg}) {
+    width: 60%;
+  }
+
   @media only screen and (max-width: ${({ theme }) => theme.breakpoints.md}) {
     width: 100%;
     height: 70%;
@@ -28,6 +32,10 @@ export const AboutRightContainer = styled.div`
   justify-content: flex-start;
   padding: 25px;
   overflow: hidden;
+
+  @media only screen and (max-width: ${({ theme }) => theme.breakpoints.lg}) {
+    width: 40%;
+  }
 
   @media only screen and (max-width: ${({ theme }) => theme.breakpoints.md}) {
     width: 100%;
