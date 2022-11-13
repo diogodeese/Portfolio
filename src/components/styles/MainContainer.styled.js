@@ -8,7 +8,7 @@ export const MainContainer = styled.div`
   height: ${({ height }) => height || "fit-content"};
   overflow: hidden;
 
-  @media only screen and (max-width: ${({ theme }) => theme.breakpoints.md}) {
+  @media only screen and (max-width: ${({ theme }) => theme.breakpoints.lg}) {
     margin-inline: 0;
     ${({ mediaDisplay }) => `display: ${mediaDisplay};`}
   }
