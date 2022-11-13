@@ -50,10 +50,9 @@ export default function ProjectsArchive() {
                     style={{
                       color: "#d1cdcd",
                       height: 50,
-                      transitionDelay: `${key * 100}ms`,
                     }}
                   >
-                    <td>{project.year.toString()}</td>
+                    <td style={{ color: "#ffacac" }}>{project.year.toString()}</td>
                     <td>{project.title}</td>
                     {width > 800 && (
                       <td
