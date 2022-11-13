@@ -9,7 +9,7 @@ import { AButton } from "../components/styles/Button.styled";
 
 export default function Contact() {
   return (
-    <MainContainer id="contact" height={"fit-content"}>
+    <MainContainer id="contact" height={"fit-content"} marginTop={100} >
       <ContactContainer>
         <H1>Get In Touch</H1>
         <H4>
