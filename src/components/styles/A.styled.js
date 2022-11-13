@@ -13,10 +13,6 @@ export const A = styled.a`
     color: ${({ theme }) => theme.colors.valencia};
   }
 
-  @media only screen and (max-width: ${({ theme }) => theme.breakpoints.md}) {
-    font-size: 3.5vw;
-  }
-
   @media only screen and (max-width: ${({ theme }) => theme.breakpoints.sm}) {
     font-size: 12px;
   }
