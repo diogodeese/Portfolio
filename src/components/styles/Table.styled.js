@@ -12,6 +12,7 @@ export const Table = styled.table`
     font-family: "Calibre", "Inter", "San Francisco", "SF Pro Text",
       -apple-system, system-ui, sans-serif;
     padding-bottom: 10px;
+    padding-inline: 5px;
     color: #d14949;
   }
 
@@ -21,6 +22,7 @@ export const Table = styled.table`
       -apple-system, system-ui, sans-serif;
     font-size: 16px;
     font-weight: 500;
+    padding-inline: 5px;
   }
 
   @media only screen and (max-width: ${({ theme }) => theme.breakpoints.lg}) {
