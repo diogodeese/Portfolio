@@ -20,6 +20,23 @@ const Nav = styled.nav`
 
   @media only screen and (max-width: ${({ theme }) => theme.breakpoints.lg}) {
     display: none;
+    padding-inline: 40px;
+  }
+
+  @media only screen and (max-width: ${({ theme }) => theme.breakpoints.md}) {
+    padding-inline: 30px;
+
+    h3 {
+      font-size: 22px;
+    }
+  }
+
+  @media only screen and (max-width: ${({ theme }) => theme.breakpoints.sm}) {
+    padding-inline: 20px;
+
+    h3 {
+      font-size: 18px;
+    }
   }
 `;
 
@@ -113,10 +130,10 @@ export function Navbar() {
 
 export function NavbarArchive() {
   return (
-    <Nav>
+    <Nav style={{ display: "flex" }}>
       <H3
         size="28px"
-        style={{ width: "250px", fontFamily: "Rubik", fontWeight: 400 }}
+        style={{ width: "275px", fontFamily: "Rubik", fontWeight: 400 }}
       >
         Diogo Santos
       </H3>

@@ -35,4 +35,8 @@ export const ArchiveIntroduction = styled.div`
   @media only screen and (max-width: ${({ theme }) => theme.breakpoints.md}) {
     margin-left: 7.5%;
   }
+
+  @media only screen and (max-width: ${({ theme }) => theme.breakpoints.sm}) {
+    margin-right: 2.5%;
+  }
 `;
