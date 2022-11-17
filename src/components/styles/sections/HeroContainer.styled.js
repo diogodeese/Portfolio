@@ -10,7 +10,7 @@ export const HeroContainer = styled.div`
   box-sizing: border-box;
 
   @media only screen and (max-width: ${({ theme }) => theme.breakpoints.md}) {
-    margin-top: 250px;
+    margin-top: 75px;
     margin-bottom: 0px;
     margin-left: 25px;
   }
