@@ -25,8 +25,8 @@ export default function Projects() {
   useEffect(() => {
     if (width > 1600) setProjectsNumber(8);
     if (width < 1600) setProjectsNumber(6);
-    if (width < 1200) setProjectsNumber(4);
-    if (width < 900) setProjectsNumber(3);
+    if (width < 900) setProjectsNumber(4);
+    if (width < 600) setProjectsNumber(3);
   }, [width, height]);
 
   return (

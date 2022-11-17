@@ -21,20 +21,20 @@ export const ProjectsWrapper = styled.div`
     grid-template-columns: repeat(3, auto);
   }
 
-  @media only screen and (max-width: ${({ theme }) => theme.breakpoints.lg}) {
+  @media only screen and (max-width: ${({ theme }) => theme.breakpoints.md}) {
     grid-template-columns: repeat(2, auto);
   }
 
-  @media only screen and (max-width: ${({ theme }) => theme.breakpoints.md}) {
+  @media only screen and (max-width: ${({ theme }) => theme.breakpoints.sm}) {
     grid-template-columns: repeat(1, auto);
   }
 `;
 
 export const Project = styled.div`
-  height: 285px;
-  width: 285px;
+  height: 275px;
+  width: 275px;
   margin: 5px;
-  padding: 25px;
+  padding: 20px;
   position: relative;
   background-color: ${({ theme }) => theme.colors.nightRider};
   border-radius: 5px;
@@ -101,7 +101,7 @@ export const ProjectFooter = styled.div`
   li {
     padding: 5px;
     font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
-    font-size: 14px;
+    font-size: 12px;
     color: ${({ theme }) => theme.colors.grey};
   }
 `;
