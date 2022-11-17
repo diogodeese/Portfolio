@@ -18,13 +18,7 @@ const Nav = styled.nav`
   background-color: #1f1f1f;
   box-shadow: 0 0 6px #131313;
 
-  @media only screen and (max-width: ${({ theme }) => theme.breakpoints.md}) {
-    h3 {
-      width: 100%;
-      text-align: center;
-      font-size: 26px;
-    }
-
+  @media only screen and (max-width: ${({ theme }) => theme.breakpoints.lg}) {
     display: none;
   }
 `;

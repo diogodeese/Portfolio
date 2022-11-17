@@ -19,7 +19,7 @@ export const Button = styled.button`
   }
 
   @media only screen and (max-width: ${({ theme }) => theme.breakpoints.md}) {
-    font-size: 3.5vw;
+    font-size: 18px;
   }
 
   @media only screen and (max-width: ${({ theme }) => theme.breakpoints.sm}) {
@@ -46,7 +46,7 @@ export const AButton = styled.a`
   }
 
   @media only screen and (max-width: ${({ theme }) => theme.breakpoints.md}) {
-    font-size: 3.5vw;
+    font-size: 18px;
   }
 
   @media only screen and (max-width: ${({ theme }) => theme.breakpoints.sm}) {

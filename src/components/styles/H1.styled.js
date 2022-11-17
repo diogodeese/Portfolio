@@ -8,10 +8,10 @@ export const H1 = styled.h1`
   color: ${({ theme }) => theme.colors.sundown};
 
   @media only screen and (max-width: ${({ theme }) => theme.breakpoints.md}) {
-    font-size: 6.5vw;
+    font-size: 32px;
   }
 
   @media only screen and (max-width: ${({ theme }) => theme.breakpoints.sm}) {
-    font-size: 22px;
+    font-size: 24px;
   }
 `;

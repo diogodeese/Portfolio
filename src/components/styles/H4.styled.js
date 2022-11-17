@@ -9,7 +9,7 @@ export const H4 = styled.h4`
   font-size: ${({ size }) => size};
 
   @media only screen and (max-width: ${({ theme }) => theme.breakpoints.md}) {
-    font-size: 2vw;
+    font-size: 16px;
   }
 
   @media only screen and (max-width: ${({ theme }) => theme.breakpoints.sm}) {

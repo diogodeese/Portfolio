@@ -6,9 +6,7 @@ export const H3 = styled.h3`
   font-size: ${({ size }) => size || "18px"};
 
   @media only screen and (max-width: ${({ theme }) => theme.breakpoints.md}) {
-    font-size: 4vw;
-    letter-spacing: 2px;
-    margin-bottom: 10px;
+    font-size: 18px;
   }
 
   @media only screen and (max-width: ${({ theme }) => theme.breakpoints.sm}) {

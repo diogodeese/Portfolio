@@ -16,9 +16,9 @@ export default function About() {
   return (
     <MainContainer id="about" height={"100vh"} mediaDisplay={"block"}>
       <AboutLeftContainer>
-        <div style={{ display: "block" }}>
+        <div style={{ display: "block", width: "100%" }}>
           <H1 size={"32px"}>About Me</H1>
-          <H4 size={"16px"} width={"450px"}>
+          <H4 size={"16px"}>
             Hi! My name is Diogo and I enjoy automating actions and creating
             good looking interfaces. I chose this career path back in 2018 when
             I decided to join my programming school course and since then I've
