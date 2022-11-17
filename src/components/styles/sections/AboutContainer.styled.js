@@ -21,7 +21,7 @@ export const AboutLeftContainer = styled.div`
 
   @media only screen and (max-width: ${({ theme }) => theme.breakpoints.md}) {
     width: 100%;
-    height: 70%;
+    height: 60%;
     justify-content: center;
     padding: 50px;
     float: none;
@@ -48,7 +48,7 @@ export const AboutRightContainer = styled.div`
 
   @media only screen and (max-width: ${({ theme }) => theme.breakpoints.md}) {
     width: 100%;
-    height: 30%;
+    height: 40%;
     justify-content: center;
     padding: 25px;
     float: none;
