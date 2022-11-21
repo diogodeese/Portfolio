@@ -17,3 +17,14 @@ export const A = styled.a`
     font-size: 12px;
   }
 `;
+
+export const AText = styled.a`
+  color: ${({ theme }) => theme.colors.sundown};
+  text-decoration: none;
+  cursor: pointer;
+
+  &:hover {
+    transition: all 0.3s ease-out;
+    color: ${({ theme }) => theme.colors.valencia};
+  }
+`;

@@ -11,6 +11,7 @@ import { H1 } from "../components/styles/H1.styled";
 import { H4 } from "../components/styles/H4.styled";
 import { Ul, Li } from "../components/styles/Lists.styled";
 import { Image } from "../components/styles/Image";
+import { AText } from "../components/styles/A.styled";
 
 export default function About() {
   return (
@@ -19,10 +20,17 @@ export default function About() {
         <div style={{ display: "block", width: "100%" }}>
           <H1 size={"32px"}>About Me</H1>
           <H4 size={"16px"}>
-            Hi! My name is Diogo and I enjoy automating actions and creating
-            good looking interfaces. I chose this career path back in 2018 when
-            I decided to join my programming school course and since then I've
-            been creating projects that I like and that I find useful.
+            Hey, my name is Diogo and I enjoy creating accessible, dynamic and
+            attractive interfaces. Currently, I'm studying computer science at
+            <AText
+              href="https://www.ips.pt/ips_si/web_page.inicial"
+              target="blank"
+            >
+              {" "}
+              Polytechnic Institute of Setúbal{" "}
+            </AText>
+            and developing personal projects where I can learn about
+            technologies that I find amazing!
             <br /> <br />
             Nowadays I'm focused on really learning JavaScript, so I chose React
             as my main framework (Library) and started developing all kinds of
@@ -30,6 +38,7 @@ export default function About() {
             <br /> <br />
             These are the technologies I've been working with recently:
           </H4>
+
           <div style={{ display: "flex" }}>
             <Ul>
               <Li>React</Li>
