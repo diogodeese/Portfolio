@@ -32,7 +32,7 @@ export const projects = [
     year: 2022,
     title: "Key Killer",
     description:
-      "Key Killer is keyboard typing game, the objective is to press the key as fast as you can once it gets highlighted.",
+      "Key Killer is a keyboard typing game, the objective is to press the key as fast as you can once it gets highlighted.",
     languages: ["React", "TypeScript", "Tailwind"],
     links: [
       {
