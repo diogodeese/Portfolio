@@ -23,7 +23,7 @@ export default function About() {
             Hey, my name is Diogo and I enjoy creating accessible, dynamic and
             attractive interfaces. Currently, I'm studying computer science at
             <AText
-              href="https://www.ips.pt/ips_si/web_page.inicial"
+              href="https://www.estsetubal.ips.pt/"
               target="blank"
             >
               {" "}
