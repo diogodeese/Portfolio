@@ -1,11 +1,32 @@
 export const projects = [
   {
+    showcase: true,
+    year: 2023,
+    title: "Hab[i]",
+    description:
+      "Hab[i] is a habit tracker where you can register your daily habits and check if you are accomplishing them.",
+    languages: ["React", "Node.js", "TypeScript", "Prisma"],
+    links: [
+      {
+        name: "GitHub",
+        link: "https://github.com/diogodeese/Habi",
+      },
+    ],
+  },
+  {
     showcase: false,
     year: 2022,
     title: "Next Level Week eSports",
     description:
       "Built during the Next Level Week event organized by @Rocketseat.",
-    languages: ["React", "React Native", "Node.js", "TypeScript", "Prisma", "Tailwind"],
+    languages: [
+      "React",
+      "React Native",
+      "Node.js",
+      "TypeScript",
+      "Prisma",
+      "Tailwind",
+    ],
     links: [
       {
         name: "GitHub",
@@ -98,8 +119,7 @@ export const projects = [
     showcase: true,
     year: 2021,
     title: "Evee Discord Bot",
-    description:
-      "Evee is a discord bot that makes your life easier.",
+    description: "Evee is a discord bot that makes your life easier.",
     languages: ["Node.js", "JavaScript", "MongoDB"],
     links: [
       {
@@ -116,8 +136,7 @@ export const projects = [
     showcase: true,
     year: 2021,
     title: "Pathfinding Algorithms",
-    description:
-      "Visualizer of the pathfinding algorithms.",
+    description: "Visualizer of the pathfinding algorithms.",
     languages: ["React", "JavaScript"],
     links: [
       {
